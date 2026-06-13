@@ -60,7 +60,17 @@
 <script src="{{ url ('assets/js/SplitText.min.js')}}"></script>
 <script src="{{ url ('assets/js/custom-gsap.js')}}"></script>
 <script src="{{ url ('assets/js/script.js')}}"></script>
-
+<script>
+  var myopWidgetOption = {
+    brandColor: "#2bbcca",
+    headerText: "Chat With Us",
+    position: "bl",
+    chatButton: "w",
+    showQR: false,
+    qrCodeUri: "https://t.heyo.bot/0gvssvg",
+  };
+</script>
+<script async src="https://widget.myoperator.com/js/inject.js"></script>
 </body>
 
 </html>
