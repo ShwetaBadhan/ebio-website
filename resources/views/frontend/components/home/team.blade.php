@@ -10,10 +10,10 @@
             <div class="team-block swiper-slide wow fadeInUp" data-wow-delay="200ms">
               <div class="inner-block">
                 <div class="image">
-                  <img src="{{ ('assets/images/resource/team1-1.jpg')}}" alt="">
+                  <img src="{{ ('assets/images/about/drbio.jpg')}}" alt="">
                 </div>
-                <div class="content"> <div class="h4 team-title"><a href="javascript:void(0)">Jason Response</a></div>
-                  <div class="team-subtitle">Sr. IVF Specialist</div>
+                <div class="content"> <div class="h4 team-title"><a href="javascript:void(0)">Dr. Jaswinder Singh</a></div>
+                  <div class="team-subtitle">M.D., B.E.M.S (Electropathy/Biopathy Medicine)</div>
                   <div class="social-icon">
                     <div class="social-links">
                       <div><a aria-label="facebook" href="#"><i class="fab fa-facebook"></i></a></div>
@@ -24,7 +24,7 @@
                 </div>
               </div>
             </div>
-            <div class="team-block swiper-slide wow fadeInUp" data-wow-delay="400ms">
+            {{-- <div class="team-block swiper-slide wow fadeInUp" data-wow-delay="400ms">
               <div class="inner-block">
                 <div class="image">
                   <img src="{{ ('assets/images/resource/team1-2.jpg')}}" alt="">
@@ -40,8 +40,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="team-block swiper-slide wow fadeInUp" data-wow-delay="600ms">
+            </div> --}}
+            {{-- <div class="team-block swiper-slide wow fadeInUp" data-wow-delay="600ms">
               <div class="inner-block">
                 <div class="image">
                   <img src="{{ ('assets/images/resource/team1-3.jpg')}}" alt="">
@@ -142,7 +142,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>

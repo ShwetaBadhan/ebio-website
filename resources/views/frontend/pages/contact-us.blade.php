@@ -3,7 +3,7 @@
 @section('content')
 
   <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/resource/page-title.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
       <div class="auto-container">
         <div class="title-outer text-center"> <div class="h1 title">Contact Us</div>
           <ul class="page-breadcrumb">
@@ -24,7 +24,7 @@
             <div class="h2">Feel free to write</div>
           </div>
           <!-- Contact Form -->
-          <form id="contact_form" name="contact_form" action="https://html.kodesolution.com/2026/fertilys-html/includes/sendmail.php" method="post">
+          <form id="contact_form" name="contact_form" action="" method="post">
             <div class="row">
               <div class="col-sm-6">
                 <div class="mb-3">
@@ -74,7 +74,7 @@
                   <span class="fa-classic fa-light fa-phone-plus"></span>
                 </div>
                 <div class="text"> <div class="h6 mb-1">Have any question?</div>
-                  <a href="tel:980089850"><span>Free</span> +92 (020)-9850</a>
+                  <a href="tel:919872001445"><span>Free</span> +91 98720-01445</a>
                 </div>
               </li>
               <li>
@@ -82,7 +82,7 @@
                   <span class="fal fa-envelope"></span>
                 </div>
                 <div class="text"> <div class="h6 mb-1">Write email</div>
-                  <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#355b5050515d50594575565a5845545b4c1b565a58"><span class="__cf_email__" data-cfemail="543a3131303c31382414373b3924353a2d7a373b39">[email&#160;protected]</span></a>
+                 <span> info@ebiocares.com</span>
                 </div>
               </li>
               <li>
@@ -90,7 +90,7 @@
                   <span class="fal fa-location-arrow"></span>
                 </div>
                 <div class="text"> <div class="h6 mb-1">Visit anytime</div>
-                  <span>66 broklyn golden street. New York</span>
+                  <span>V.P.O Phoolpur 144026, Near Lambra, Jalandhar(Pb.)India</span>
                 </div>
               </li>
             </ul>
@@ -103,7 +103,7 @@
 
   <!-- Map Section-->
   <section class="map-section">
-    <iframe  class="map w-100"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    <iframe class="map w-100" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d109221.37461258726!2d75.36409038799117!3d31.188356090276997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!3m2!1d31.1471305!2d75.34121789999999!4m5!1s0xa8123c1222b46f17%3A0x3d6fe4dc89abc523!2sEBio%20Cares%2C%20near%20lambra%2C%20VPO%2C%20Phoolpur%2C%20Jalandhar%2C%20Punjab%20144026!3m2!1d31.254499!2d75.55927989999999!5e0!3m2!1sen!2sin!4v1781331499254!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
   <!--End Map Section-->
 

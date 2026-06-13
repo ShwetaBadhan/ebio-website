@@ -7,7 +7,7 @@
           <div class="row g-4">
               <div class="col-xl-7 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="testimonial-block-content2">
-                    <div class="sec-title mb-0"> <div class="h6 sub-title border-style">Testimonial</div> <div class="h2 title char-animation">Real experiences shared by real IVF patients</div>
+                    <div class="sec-title mb-0"> <div class="h6 sub-title border-style">Testimonial</div> <div class="h2 title char-animation">Real experiences shared by patients</div>
                     </div>
                     <div class="swiper testimonial-slider pb-0">
                       <div class="swiper-wrapper">
@@ -22,7 +22,7 @@
                                         <img src="{{ url ('assets/images/resource/testi-2-1.jpg')}}" alt="">
                                     </div>
                                     <div class="info-content"> <div class="h5 name">Emily Carter</div>
-                                      <span>IVF Specialist</span>
+                                      <span>Doctor</span>
                                     </div>
                                 </div>
                               </div>
@@ -38,7 +38,7 @@
                                         <img src="{{ url ('assets/images/resource/testi-2-1.jpg')}}" alt="">
                                     </div>
                                     <div class="info-content"> <div class="h5 name">Emily Carter</div>
-                                      <span>IVF Specialist</span>
+                                      <span>Doctor</span>
                                     </div>
                                 </div>
                               </div>
@@ -54,7 +54,7 @@
                                         <img src="{{ url ('assets/images/resource/testi-2-1.jpg')}}" alt="">
                                     </div>
                                     <div class="info-content"> <div class="h5 name">Emily Carter</div>
-                                      <span>IVF Specialist</span>
+                                      <span>Doctor</span>
                                     </div>
                                 </div>
                               </div>
@@ -74,7 +74,7 @@
               <div class="col-xl-5 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="tetsimonial-image-items">
                     <div class="thumb fix">
-                      <img data-speed=".8" src="{{ url ('assets/images/resource/testimonial-image2-1.jpg')}}" alt="">
+                      <img data-speed=".8" src="{{ url ('assets/images/testimonial/testimonial.jpg')}}" alt="">
                     </div>
                     <div class="testi-ratting">
                         <div class="rattings"> <div class="h2 ratting-count">

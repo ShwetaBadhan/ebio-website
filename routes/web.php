@@ -36,3 +36,15 @@ Route::get('/contact-us', function () {
     return view('frontend.pages.contact-us');
 })->name('contact-us');
 
+Route::get('/blog-details', function () {
+    return view('frontend.pages.blog-details');
+})->name('blog-details');
+
+Route::get('/records', function () {
+    return view('frontend.pages.records');
+})->name('records');
+
+Route::get('/record-details', function () {
+    return view('frontend.pages.record-details');
+})->name('record-details');
+

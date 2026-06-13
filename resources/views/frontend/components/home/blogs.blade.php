@@ -10,42 +10,43 @@
           <div class="col-xl-4 col-md-6">
             <div class="blog-block wow fadeInUp" data-wow-delay="200ms">
               <div class="thumb">
-                <img src="{{ url('assets/images/resource/blog1-1.jpg')}}" alt="">
-                <img src="{{ url('assets/images/resource/blog1-1.jpg')}}" alt="">
+                <img src="{{ url('assets/images/bg/bg.jpg')}}" alt="">
+                <img src="{{ url('assets/images/bg/bg.jpg')}}" alt="">
                 <span class="date">06</span>
               </div>
-              <div class="content"> <div class="h4 entry-title"><a href="{{ route('award-details') }}">IVF Demystified: From Consultation to Pregnancy</a></div>
-                <div class="mascot-post-excerpt">It is a long established fact that a reader will be distracted by the</div>
-                <a href="{{ route('award-details') }}" class="link-btn">Read More<i class="fa fa-arrow-right"></i></a>
+              <div class="content"> <div class="h4 entry-title"><a href="{{ route('blog-details') }}">Understanding Autism: Signs, Causes, and the Importance of Early Support</a></div>
+                <div class="mascot-post-excerpt">Autism, also known as Autism Spectrum Disorder (ASD), is a</div>
+                <a href="{{ route('blog-details') }}" class="link-btn">Read More<i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div class="col-xl-4 col-md-6">
-            <div class="blog-block wow fadeInUp" data-wow-delay="400ms">
+            <div class="blog-block wow fadeInUp" data-wow-delay="200ms">
               <div class="thumb">
-                <img src="{{ url('assets/images/resource/blog1-2.jpg')}}" alt="">
-                <img src="{{ url('assets/images/resource/blog1-2.jpg')}}" alt="">
-                <span class="date">05</span>
+                <img src="{{ url('assets/images/bg/bg.jpg')}}" alt="">
+                <img src="{{ url('assets/images/bg/bg.jpg')}}" alt="">
+                <span class="date">06</span>
               </div>
-              <div class="content"> <div class="h4 entry-title"><a href="{{ route('award-details') }}">IVF Made Simple: Guide to Fertility Success</a></div>
-                <div class="mascot-post-excerpt">It is a long established fact that a reader will be distracted by the</div>
-                <a href="{{ route('award-details') }}" class="link-btn">Read More<i class="fa fa-arrow-right"></i></a>
+              <div class="content"> <div class="h4 entry-title"><a href="{{ route('blog-details') }}">Understanding Autism: Signs, Causes, and the Importance of Early Support</a></div>
+                <div class="mascot-post-excerpt">Autism, also known as Autism Spectrum Disorder (ASD), is a</div>
+                <a href="{{ route('blog-details') }}" class="link-btn">Read More<i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div class="col-xl-4 col-md-6">
-            <div class="blog-block wow fadeInUp" data-wow-delay="600ms">
+            <div class="blog-block wow fadeInUp" data-wow-delay="200ms">
               <div class="thumb">
-                <img src="{{ url('assets/images/resource/blog1-3.jpg')}}" alt="">
-                <img src="{{ url('assets/images/resource/blog1-3.jpg')}}" alt="">
-                <span class="date">04</span>
+                <img src="{{ url('assets/images/bg/bg.jpg')}}" alt="">
+                <img src="{{ url('assets/images/bg/bg.jpg')}}" alt="">
+                <span class="date">06</span>
               </div>
-              <div class="content"> <div class="h4 entry-title"><a href="{{ route('award-details') }}">In Vitro Fertilization: A Comprehensive Introduction</a></div>
-                <div class="mascot-post-excerpt">It is a long established fact that a reader will be distracted by the</div>
-                <a href="{{ route('award-details') }}" class="link-btn">Read More<i class="fa fa-arrow-right"></i></a>
+              <div class="content"> <div class="h4 entry-title"><a href="{{ route('blog-details') }}">Understanding Autism: Signs, Causes, and the Importance of Early Support</a></div>
+                <div class="mascot-post-excerpt">Autism, also known as Autism Spectrum Disorder (ASD), is a</div>
+                <a href="{{ route('blog-details') }}" class="link-btn">Read More<i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

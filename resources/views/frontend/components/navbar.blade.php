@@ -25,7 +25,7 @@
                         <li><a href="{{ route('about-us') }}">About Us</a></li>
                         <li><a href="{{ route('the-founder') }}">The Founder</a></li>
                         <li><a href="{{ route('awards') }}">Awards</a></li>
-                        {{-- <li><a href="javascript:void(0)">Records</a></li> --}}
+                        <li><a href="{{ route('records') }}">Records</a></li>
                       </ul>
                     </li>
                    

@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Start main-content -->
-<section class="page-title" style="background-image: url(assets/images/resource/page-title.jpg);">
+<section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
     <div class="auto-container">
         <div class="row align-items-center">
 

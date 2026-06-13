@@ -49,7 +49,7 @@
                       </div>
                       <div class="info">
                         <i aria-hidden="true" class=" flaticon-common-location"></i>
-                        <span>V.P.O Phoolpur 144026, Near Lambra, Jalandhar(Pb.)India</span>
+                        <span>V.P.O Phoolpur 144026, <br> Near Lambra, Jalandhar(Pb.)India</span>
                       </div>
                       <div class="info">
                         <i aria-hidden="true" class=" flaticon-common-call-1"></i>
