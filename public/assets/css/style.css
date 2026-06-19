@@ -16298,3 +16298,29 @@ Sidebar
     line-height: 1.6;
     margin-bottom: 0;
 }
+.page-title {
+    position: relative;
+}
+
+.page-title .auto-container {
+    position: relative;
+    z-index: 10;
+}
+
+.breadcrumb-form {
+    position: relative;
+    z-index: 99;
+}
+
+.breadcrumb-form{
+    position: relative !important;
+    z-index: 9999 !important;
+}
+.breadcrumb-form input{
+    background: #fff;
+    color: #222;
+}
+
+.breadcrumb-form input::placeholder{
+    color: #777;
+}

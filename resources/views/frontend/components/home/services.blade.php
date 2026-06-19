@@ -54,7 +54,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{ url ('assets/images/services/autisum.png')}}" alt=""></div> <div class="h3 title">Autism</div>
                           <div class="text">Autism, or Autism Spectrum Disorder (ASD), is a complex neurodevelopmental condition that affects how a person communicates, behaves, and interacts with others.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('autism') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -71,7 +71,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{url('assets/images/services/cerebral-palasy.png')}}" alt=""></div> <div class="h3 title">Cerebral Palasy</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('cerebral-palsy') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -88,7 +88,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{ url ('assets/images/services/ADHD-in-Adults.jpg')}}" alt=""></div> <div class="h3 title">ADHD</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('adhd') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -105,7 +105,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{url('assets/images/services/cancer-treatment.jpg')}}" alt=""></div> <div class="h3 title">Cancer Treatment</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('cancer-treatment') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -122,7 +122,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{ url ('assets/images/services/Paralysis.jpg')}}" alt=""></div> <div class="h3 title">Paralysis</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('paralysis') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -138,7 +138,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{url('assets/images/services/diabetics.jpg')}}" alt=""></div> <div class="h3 title">Diabetes</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('diabetes') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -154,7 +154,7 @@
                         <div class="inner-box">
                           <div class="image"><img src="{{url('assets/images/services/lung-disease.jpg')}}" alt=""></div> <div class="h3 title">Lung Disease</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
-                          <a href="{{ route('service-details') }}" class="theme-btn btn-style-one">
+                          <a href="{{ route('lung-diseases') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
                             <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>

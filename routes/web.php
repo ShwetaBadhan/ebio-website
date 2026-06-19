@@ -48,3 +48,33 @@ Route::get('/record-details', function () {
     return view('frontend.pages.record-details');
 })->name('record-details');
 
+
+Route::get('/autism', function () {
+    return view('frontend.pages.services.autism');
+})->name('autism');
+
+Route::get('/cerebral-palsy', function () {
+    return view('frontend.pages.services.cerebral-palsy');
+})->name('cerebral-palsy');
+
+Route::get('/adhd', function () {
+    return view('frontend.pages.services.adhd');
+})->name('adhd');
+
+Route::get('/cancer-treatment', function () {
+    return view('frontend.pages.services.cancer-treatment');
+})->name('cancer-treatment');
+
+Route::get('/paralysis', function () {
+    return view('frontend.pages.services.paralysis');
+})->name('paralysis');
+
+
+Route::get('/diabetes', function () {
+    return view('frontend.pages.services.diabetes');
+})->name('diabetes');
+
+Route::get('/lung-diseases', function () {
+    return view('frontend.pages.services.lung-diseases');
+})->name('lung-diseases');
+
