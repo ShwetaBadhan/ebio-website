@@ -46,7 +46,7 @@
           </div>
           <div class="image-column col-xl-6 col-lg-8 col-md-10">
             <div class="inner-column wow fadeInUp" data-wow-delay="200ms">
-              <div class="image"><img src="{{ url ('assets/images/about/about-us.JPG')}}" alt=""></div>
+              <div class="image"><img src="{{ url ('assets/images/about/about-us.jpg')}}" alt=""></div>
               <div class="info wow fadeInUp" data-wow-delay="400ms"> <div class="h4 title">Solve health issues with Nature's Blessings</div>
                 <div class="list-info">
                   <ul class="list-style-two">
