@@ -8,8 +8,8 @@
   <link href="{{ url ('assets/css/style.css')}}" rel="stylesheet" />
   <link href="{{ url ('assets/css/style-home-1.css')}}" rel="stylesheet" />
 
-  <link rel="shortcut icon" href="{{ url ('assets/images/favicon.png')}}" type="image/x-icon" />
-  <link rel="icon" href="{{ url ('assets/images/favicon.png')}}" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ url ('assets/images/logo/favicon.png')}}" type="image/x-icon" />
+  <link rel="icon" href="{{ url ('assets/images/logo/favicon.png')}}" type="image/x-icon" />
 
   <!-- Responsive -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />

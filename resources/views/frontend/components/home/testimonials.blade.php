@@ -183,7 +183,7 @@
                    <div class="col-xl-5 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                        <div class="tetsimonial-image-items">
                            <div class="thumb fix">
-                               <img data-speed=".8" src="{{ url('assets/images/testimonial/testimonial.jpg') }}"
+                               <img data-speed=".8" src="{{ url('assets/images/testimonial/testimonials.png') }}"
                                    alt="">
                            </div>
                            <div class="testi-ratting">

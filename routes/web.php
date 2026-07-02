@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ConsultationController;
 Route::get('/', function () {
     return view('frontend.pages.index');
 })->name('home');
@@ -78,3 +78,5 @@ Route::get('/lung-diseases', function () {
     return view('frontend.pages.services.lung-diseases');
 })->name('lung-diseases');
 
+// Add this route
+Route::post('/consultation', [ConsultationController::class, 'store'])->name('consultation.store');

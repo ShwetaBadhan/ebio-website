@@ -11,7 +11,7 @@
                 <div class="footer-column border-0 col-xl-3 col-lg-9">
                   <div class="footer-widget about-widget wow fadeInLeft">
                     <div class="widget-content">
-                      <div class="logo"><a href="{{ route('home') }}"><img src="assets/images/logo-ebio.jpg" alt=""></a></div>
+                      <div class="logo"><a href="{{ route('home') }}"><img src="assets/images/logo/white-logo.png" alt=""></a></div>
                       <div class="text text-white">Contrary to popular belief, Lorem Ipsum is not simply random text this isni It has rootsThe property business.</div>
                       <div class="social-widget">
                         <ul class="social-icon-list1">

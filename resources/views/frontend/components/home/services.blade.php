@@ -52,7 +52,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{ url ('assets/images/services/autisum.png')}}" alt=""></div> <div class="h3 title">Autism</div>
+                          <div class="image"><img src="{{ url ('assets/images/services/autism.png')}}" alt=""></div> <div class="h3 title">Autism</div>
                           <div class="text">Autism, or Autism Spectrum Disorder (ASD), is a complex neurodevelopmental condition that affects how a person communicates, behaves, and interacts with others.</div>
                           <a href="{{ route('autism') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -69,7 +69,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{url('assets/images/services/cerebral-palasy.png')}}" alt=""></div> <div class="h3 title">Cerebral Palasy</div>
+                          <div class="image"><img src="{{url('assets/images/services/cerebral-palsy.jpeg')}}" alt=""></div> <div class="h3 title">Cerebral Palsy</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
                           <a href="{{ route('cerebral-palsy') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>

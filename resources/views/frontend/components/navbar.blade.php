@@ -8,7 +8,7 @@
             <div class="left-box">
               <div class="logo-box">
                 <div class="logo">
-                  <a href="{{ route('home') }}"><img src="{{ url ('assets/images/logo-ebio.jpg')}}" alt="Logo" /></a>
+                  <a href="{{ route('home') }}"><img src="{{ url ('assets/images/logo/logo.png')}}" alt="Logo" /></a>
                 </div>
               </div>
               <!--Nav Box-->

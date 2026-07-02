@@ -5,10 +5,10 @@
           <div class="image-column col-xl-6 col-lg-7">
             <div class="inner-column">
               <div class="image-box one wow fadeInUp" data-wow-delay="200ms">
-                <div class="image"><img src="{{ url ('assets/images/about/e-biocares.png')}}" alt=""></div>
+                <div class="image"><img src="{{ url ('assets/images/about/about-us.png')}}" alt=""></div>
               </div>
               <div class="image-box two wow fadeInUp" data-wow-delay="400ms">
-                <div class="image"><img src="{{ url ('assets/images/about/dicover-image.png')}}" alt=""></div>
+                <div class="image"><img src="{{ url ('assets/images/about/about-1.jpeg')}}" alt=""></div>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@
         <div class="row g-4">
           <div class="image-column col-xl-6">
             <div class="inner-column">
-              <div class="image"><img src="{{ url ('assets/images/bg/bg.jpg')}}" alt=""></div>
+              <div class="image"><img src="{{ url ('assets/images/resource/register.png')}}" alt=""></div>
               <div class="content"> <div class="h2 title char-animation">E-Bio Cares Questions Answered.</div>
                 <div class="info">
                   <span>Drop Us Email</span> <div class="h4 info-title">info@ebiocares.com</div>
