@@ -32,12 +32,14 @@
                     <li class="dropdown"><a href="{{ route('services') }}">Services</a>
                       <ul>
                         <li><a href="{{ route('autism') }}">Autism</a></li>
-                        <li><a href="{{ route('cerebral-palsy') }}">Cerebral Palsy</a></li>
                         <li><a href="{{ route('adhd') }}">ADHD</a></li>
-                        <li><a href="{{ route('cancer-treatment') }}">Cancer Treatment</a></li>
+                        <li><a href="{{ route('speech-disorder') }}">Speech Disorder</a></li>
+                        <li><a href="{{ route('behaviour-disorder') }}">Behaviour Disorder</a></li>
+                        <li><a href="{{ route('cerebral-palsy') }}">Cerebral Palsy</a></li>
                         <li><a href="{{ route('paralysis') }}">Paralysis</a></li>
                         <li><a href="{{ route('diabetes') }}">Diabetes</a></li>
                         <li><a href="{{ route('lung-diseases') }}">Lung Diseases</a></li>
+                        <li><a href="{{ route('cancer-treatment') }}">Cancer Care Center</a></li>
                       </ul>
                     </li>
                     {{-- <li class="dropdown"><a href="#">Projects</a>

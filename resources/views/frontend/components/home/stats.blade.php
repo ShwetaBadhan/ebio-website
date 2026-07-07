@@ -11,14 +11,14 @@
           </div>
           <div class="funfact-block col-md-3">
             <div class="inner-block">
-              <div class="counter-box"> <div class="h2 count-box"><span class="count-text" data-speed="3000" data-stop="512128">0</span>+</div>
+              <div class="counter-box"> <div class="h2 count-box"><span class="count-text" data-speed="3000" data-stop="10000">0</span>+</div>
                 <div class="text">Patients Treated</div>
               </div>
             </div>
           </div>
           <div class="funfact-block col-md-3">
             <div class="inner-block">
-              <div class="counter-box"> <div class="h2 count-box"><span class="count-text" data-speed="3000" data-stop="100">0</span>%</div>
+              <div class="counter-box"> <div class="h2 count-box"><span class="count-text" data-speed="3000" data-stop="90">0</span>%</div>
                 <div class="text">Product Purity</div>
               </div>
             </div>

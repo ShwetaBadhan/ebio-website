@@ -77,6 +77,11 @@ Route::get('/diabetes', function () {
 Route::get('/lung-diseases', function () {
     return view('frontend.pages.services.lung-diseases');
 })->name('lung-diseases');
-
+Route::get('/speech-disorder', function () {
+    return view('frontend.pages.services.speech-disorder');
+})->name('speech-disorder');
+Route::get('/behaviour-disorder', function () {
+    return view('frontend.pages.services.behaviour-disorder');
+})->name('behaviour-disorder');
 // Add this route
 Route::post('/consultation', [ConsultationController::class, 'store'])->name('consultation.store');

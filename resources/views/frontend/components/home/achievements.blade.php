@@ -8,8 +8,8 @@
               <div class="inner-column">
                 <div class="sec-title light"> <div class="h6 sub-title">Our Areas of Expertise</div> <div class="h2 title char-animation">Supporting Better Outcomes Across a Wide Range of Conditions</div>
                 </div>
-                <div class="text one">Thanks to our personalized approach and the combination of advanced assisted reproduction methods, we are able to help up to 90% of couples within four treatment cycles. Success requires patience, openness, and mutual trust. </div>
-                <div class="text two">The chart below illustrates our average pregnancy success rate per cycle, showing how persistence and tailored care significantly increase treatment cycles the chances of achieving pregnancy. </div>
+                <div class="text one">With personalized therapy and expert multidisciplinary care, children with Autism, ADHD, Speech Disorders, and Cerebral Palsy can make meaningful progress in communication, learning, movement, and daily living skills</div>
+                <div class="text two">The chart below illustrates our average success rate , showing how persistence and tailored care significantly increase treatment cycles the chances of achieving the results. </div>
                 <a href="{{ route('contact-us') }}" class="theme-btn btn-style-two">
                   <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                   <span class="btn-title">Book a consultation</span>
