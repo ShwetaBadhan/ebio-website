@@ -23,29 +23,29 @@
                   <div class="exp-details__progress-single">
                     <div class="exp-details__progress-title text-center">Autism Spectrum</div>
                     <div class="bar">
-                      <div class="bar-inner count-bar" data-percent="85%">
-                        <div class="count-text">85%</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="exp-details__progress-single">
-                    <div class="exp-details__progress-title">Cerebral Palsy</div>
-                    <div class="bar">
-                      <div class="bar-inner count-bar" data-percent="80%">
-                        <div class="count-text">80%</div>
+                      <div class="bar-inner count-bar" data-percent="95%">
+                        <div class="count-text">95%</div>
                       </div>
                     </div>
                   </div>
                   <div class="exp-details__progress-single">
                     <div class="exp-details__progress-title">ADHD</div>
-                    <div class="bar marb-0">
-                      <div class="bar-inner count-bar" data-percent="78%">
-                        <div class="count-text">78%</div>
+                    <div class="bar">
+                      <div class="bar-inner count-bar" data-percent="90%">
+                        <div class="count-text">90%</div>
                       </div>
                     </div>
                   </div>
                   <div class="exp-details__progress-single">
-                    <div class="exp-details__progress-title">Cancer Rehabilitation </div>
+                    <div class="exp-details__progress-title">Speech Disorder</div>
+                    <div class="bar marb-0">
+                      <div class="bar-inner count-bar" data-percent="95%">
+                        <div class="count-text">95%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="exp-details__progress-single">
+                    <div class="exp-details__progress-title"> CP </div>
                     <div class="bar marb-0">
                       <div class="bar-inner count-bar" data-percent="75%">
                         <div class="count-text">75%</div>
