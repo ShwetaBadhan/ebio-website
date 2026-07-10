@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/cerebral.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,7 +59,7 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
+                        <img class="w-100" src="assets/images/services/cerebral.jpeg" alt="" />
                         <div class="h3 mt-4">Cerebral Palsy</div>
                         <p>Cerebral Palsy Spectrum Disorder is a developmental condition that affects how a person
                             communicates, interacts, learns, and experiences the world around them. Every individual with
@@ -79,12 +79,12 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                          <div class="h5">Physical Mobility & Motor Skills</div>
                                         <p>Our therapy programs focus on improving muscle strength, balance, coordination, posture, and movement patterns. Through targeted exercises and therapeutic interventions, we help children enhance mobility and perform daily activities more independently.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Functional Independence & Daily Living</div>
                                         <p>We assist children in developing essential life skills, improving hand-eye coordination, enhancing self-care abilities, and increasing participation in school, home, and social environments, helping them lead more active and fulfilling lives.</p>
                                     </div>

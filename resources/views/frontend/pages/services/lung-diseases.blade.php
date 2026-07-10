@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/lung disease.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,7 +59,7 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
+                        <img class="w-100" src="assets/images/services/lung disease.jpeg" alt="" />
                         <div class="h3 mt-4">Lung Diseases</div>
                         <p>Lung diseases encompass a wide range of respiratory conditions that affect the lungs and airways,
                             making it difficult to breathe and perform daily activities comfortably. Common lung conditions
@@ -80,14 +80,14 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Advanced Diagnosis & Respiratory Treatment</div>
                                         <p>We offer detailed respiratory assessments, lung function testing, medication
                                             management, and customized treatment plans to effectively manage a variety of
                                             lung conditions and reduce the risk of complications.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Pulmonary Rehabilitation & Lifestyle Support</div>
                                         <p>Our team provides breathing exercises, pulmonary rehabilitation programs,
                                             lifestyle counseling, smoking cessation guidance, and preventive care strategies

@@ -4,7 +4,7 @@
         <div class="row">
           <div class="content-column col-xl-6 col-lg-8">
             <div class="inner-column">
-              <div class="sec-title"> <div class="h6 sub-title">Why Choose Us</div> <div class="h2 title char-animation">Why Choose Electropathy/Biopathy ?</div>
+              <div class="sec-title"> <div class="h6 sub-title">Why Choose Us</div> <div class="h2 title char-animation">Why Choose Electropathy, Biopathy ?</div>
                 <div class="text">At E-Bio-Cares, we believe in using the power of plants to help your body heal itself. Our approach is simple - we want to balance your body, getting rid of any issues by making sure your blood and lymphatic systems work together smoothly.</div>
               </div>
               <ul class="accordion-box">

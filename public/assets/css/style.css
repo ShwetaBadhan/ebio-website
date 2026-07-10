@@ -48,11 +48,11 @@
   --r: 30px; /* radius */
   --s: 50px; /* size of the inner curve*/
   --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%) no-repeat;
-  --theme-color1: #005252;
+  --theme-color1: #0D6A37;
   --theme-color2: #121212;
   --theme-color3: #708f87;
   --theme-color4: #abbfb6;
-  --theme-color1-rgb: 0, 82, 82;
+  --theme-color1-rgb: 13, 106, 55;
   --theme-color2-rgb: 18, 18, 18;
   --theme-color3-rgb: 112, 143, 135;
   --theme-color4-rgb: 171, 191, 182;
@@ -11514,7 +11514,7 @@ Process Section
   margin-right: 0;
 }
 .social-widget .social-icon-list1 li a {
-  background-color: #1C6D6D;
+  background-color: #f2f6f4;
   border-radius: 5px;
   color: var(--theme-color-white);
   font-size: 18px;

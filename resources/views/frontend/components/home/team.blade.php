@@ -13,7 +13,7 @@
                   <img src="{{ ('assets/images/about/drbio.jpg')}}" alt="">
                 </div>
                 <div class="content"> <div class="h4 team-title"><a href="javascript:void(0)">Dr. Jaswinder Singh</a></div>
-                  <div class="team-subtitle">M.D., B.E.M.S (Electropathy/Biopathy Medicine)</div>
+                  <div class="team-subtitle">B.E.M.S , M.D.</div>
                   <div class="social-icon">
                     <div class="social-links">
                       <div><a aria-label="facebook" href="#"><i class="fab fa-facebook"></i></a></div>

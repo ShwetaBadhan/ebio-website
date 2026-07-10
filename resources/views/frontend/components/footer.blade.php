@@ -11,14 +11,14 @@
                 <div class="footer-column border-0 col-xl-3 col-lg-9">
                   <div class="footer-widget about-widget wow fadeInLeft">
                     <div class="widget-content">
-                      <div class="logo"><a href="{{ route('home') }}"><img src="assets/images/logo/white-logo.png" alt=""></a></div>
+                      <div class="logo"><a href="{{ route('home') }}"><img src="assets/images/logo/logo.png" alt=""></a></div>
                       <div class="text text-white">Contrary to popular belief, Lorem Ipsum is not simply random text this isni It has rootsThe property business.</div>
                       <div class="social-widget">
                         <ul class="social-icon-list1">
-                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="https://www.facebook.com/profile.php?id=61574610337179" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="https://www.instagram.com/ebiocaresofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="https://www.youtube.com/@e_bio_cares_official" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                          <li><a href="#"><i class="fab fa-whatsapp" target="_blank"></i></a></li>
                         </ul>
                       </div>
                     </div>
@@ -29,12 +29,14 @@
                     <div class="widget-content">
                       <ul class="user-links">
                         <li><a href="{{ route('service-details') }}">Autism</a></li>
-                        <li><a href="{{ route('service-details') }}">Cerebral Palsy</a></li>
                         <li><a href="{{ route('service-details') }}">ADHD</a></li>
-                        <li><a href="{{ route('service-details') }}">Cancer Treatment</a></li>
+                        <li><a href="{{ route('service-details') }}">Speech Disorder</a></li>
+                        <li><a href="{{ route('service-details') }}">Behaviour Disorder</a></li>
+                        <li><a href="{{ route('service-details') }}">Cerebral Palsy</a></li>
                         <li><a href="{{ route('service-details') }}">Paralysis</a></li>
-                        <li><a href="{{ route('service-details') }}">Diabetes</a></li>
+                        <!-- <li><a href="{{ route('service-details') }}">Diabetes</a></li>
                         <li><a href="{{ route('service-details') }}">Lung Diseases</a></li>
+                        <li><a href="{{ route('service-details') }}">Cancer Care Center</a></li> -->
                       </ul>
                     </div>
                   </div>

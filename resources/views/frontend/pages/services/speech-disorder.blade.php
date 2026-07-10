@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/speech-disorder.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,7 +59,7 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
+                        <img class="w-100" src="assets/images/services/speech-disorder.jpeg" alt="" />
                         <div class="h3 mt-4">Speech Disorder</div>
                         <p>Speech disorders can affect a child's ability to speak clearly, communicate effectively, and express thoughts with confidence. Difficulties may include speech delay, unclear pronunciation, stammering, or language development challenges. Early speech therapy helps improve communication, confidence, and social interaction.</p>
                         <p>At our center, we provide comprehensive speech and language assessments along with personalized speech therapy programs. Our experienced speech therapists help children develop clear speech, language skills, and effective communication for success at home, school, and in everyday life.</p>
@@ -72,12 +72,12 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                          <div class="h5">Attention & Learning Enhancement</div>
                                         <p>We help children improve focus, concentration, listening skills, task completion, and academic performance through structured activities and individualized therapeutic strategies designed to support learning and development.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Behavioral & Emotional Development</div>
                                         <p>Our programs focus on improving self-regulation, impulse control, emotional management, social interactions, and organizational skills, helping children build stronger relationships and succeed at home, school, and in the community.</p>
                                     </div>

@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/cerebral.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,7 +59,7 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
+                        <img class="w-100" src="assets/images/services/cerebral.jpeg" alt="" />
                         <div class="h3 mt-4">Paralysis</div>
                         <p>Paralysis is a condition characterized by the loss of muscle function in one or more parts of the
                             body, often resulting from stroke, spinal cord injury, neurological disorders, or traumatic
@@ -80,7 +80,7 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Mobility & Physical Rehabilitation</div>
                                         <p>Our therapy programs focus on improving muscle strength, balance, coordination,
                                             posture, and movement through targeted exercises and advanced rehabilitation
@@ -88,7 +88,7 @@
                                             physical independence.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Daily Living & Functional Recovery</div>
                                         <p>We assist patients in developing essential self-care skills, improving motor
                                             function, enhancing communication and cognitive abilities when needed, and

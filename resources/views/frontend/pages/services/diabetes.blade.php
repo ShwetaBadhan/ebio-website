@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/diabetes.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,7 +59,7 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
+                        <img class="w-100" src="assets/images/services/diabetes.jpeg" alt="" />
                         <div class="h3 mt-4">Diabetes</div>
                         <p>Diabetes is a chronic health condition that affects how the body processes blood sugar (glucose).
                             If not properly managed, diabetes can lead to serious complications affecting the heart,
@@ -81,14 +81,14 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Blood Sugar Management & Monitoring</div>
                                         <p>We provide comprehensive assessments, regular monitoring, medication management,
                                             and individualized treatment plans to help patients maintain optimal blood
                                             glucose levels and reduce the risk of diabetes-related complications.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Lifestyle Support & Preventive Care</div>
                                         <p>Our team offers nutritional counseling, weight management guidance, exercise
                                             recommendations, and education on healthy lifestyle practices to support

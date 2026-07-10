@@ -7,14 +7,14 @@
               <div class="image-box one wow fadeInUp" data-wow-delay="200ms">
                 <div class="image"><img src="{{ url ('assets/images/about/about-us.png')}}" alt=""></div>
               </div>
-              <div class="image-box two wow fadeInUp" data-wow-delay="400ms">
+              <!-- <div class="image-box two wow fadeInUp" data-wow-delay="400ms">
                 <div class="image"><img src="{{ url ('assets/images/about/about-1.jpeg')}}" alt=""></div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="content-column col-xl-6 col-lg-10">
             <div class="inner-column">
-              <div class="sec-title"> <div class="h6 sub-title">Who we are</div> <div class="h2 title char-animation">Electropathy Biopathy & Natural Remedies</div>
+              <div class="sec-title"> <div class="h6 sub-title">Who we are</div> <div class="h2 title char-animation">Electropathy,Biopathy & Natural Remedies</div>
                 <div class="text">We combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
               </div>
               <div class="feature-box">

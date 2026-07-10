@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/autism.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,7 +59,7 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
+                        <img class="w-100" src="assets/images/services/autism.jpeg" alt="" />
                         <div class="h3 mt-4">Autism</div>
                         <p>Autism Spectrum Disorder (ASD) is a developmental condition that affects how a person
                             communicates, interacts, learns, and experiences the world around them. Every individual with
@@ -79,12 +79,12 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                          <div class="h5">Communication Development</div>
                                         <p>Our specialized therapies help children improve verbal and non-verbal communication skills, express their needs effectively, and build stronger connections with family members, peers, and caregivers.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Social & Behavioral Growth</div>
                                         <p>We support children in developing social skills, emotional regulation, positive behaviors, and daily living abilities through engaging activities and evidence-based intervention strategies.</p>
                                     </div>

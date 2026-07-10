@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/services.png);">
         <div class="auto-container">
             <div class="title-outer text-center">
                 <div class="h1 title">Our Services</div>
@@ -65,7 +65,7 @@
                         <div class="icon">
                             <i aria-hidden="true" class=" flaticon-set-healthcare"></i>
                         </div>
-                        <div class="h4 features-title"><a href="{{ route('cancer-treatment') }}">Cancer Treatment</a></div>
+                        <div class="h4 features-title"><a href="{{ route('cancer-treatment') }}">Cancer Care Center</a></div>
                         <div class="features-details">Our fertility specialists have helped thousands of families achieve
                             their dream.</div>
                         <div class="btn-view-details"><a href="{{ route('cancer-treatment') }}"

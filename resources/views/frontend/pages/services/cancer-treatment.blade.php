@@ -3,14 +3,14 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/bg.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/bg/cancer care center.jpeg);">
         <div class="auto-container">
             <div class="row align-items-center">
 
                 <!-- Left Side -->
                 <div class="col-lg-7">
                     <div class="title-outer">
-                        <div class="h1 title">Cancer Treatment</div>
+                        <div class="h1 title">Cancer Care center</div>
 
                         <ul class="page-breadcrumb">
                             <li><a href="{{ route('home') }}">Home</a></li>
@@ -59,8 +59,8 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/autisum.png" alt="" />
-                        <div class="h3 mt-4">Cancer Treatment</div>
+                        <img class="w-100" src="assets/images/services/cancer care center.jpeg" alt="" />
+                        <div class="h3 mt-4">Cancer Care Center</div>
                         <p>Cancer treatment involves a comprehensive approach to diagnosing, managing, and treating various
                             types of cancer. Advances in medical science have made it possible to detect cancer earlier and
                             provide more effective treatment options, improving outcomes and quality of life for patients.
@@ -81,7 +81,7 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Advanced Diagnosis & Personalized Treatment</div>
                                         <p>We offer thorough evaluations and customized treatment plans that may include
                                             chemotherapy, targeted therapy, immunotherapy, radiation therapy, or other
@@ -89,7 +89,7 @@
                                             recommendations.</p>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <img class="mb-3" src="assets/images/services/autisum.png" alt="images" />
+                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
                                         <div class="h5">Supportive Care & Recovery Management</div>
                                         <p>Our team provides ongoing monitoring, symptom management, nutritional guidance,
                                             rehabilitation support, and emotional counseling to help patients maintain their

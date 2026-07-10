@@ -16,18 +16,23 @@
                     <i aria-hidden="true" class="flaticon-set-research"></i>
                     <span>Autism</span>
                   </button>
-                  <button data-tab="#prod-intrauterine" class="tab-btn  wow fadeInUp" data-wow-delay="300ms">
-                    <i aria-hidden="true" class="flaticon-set-patient"></i>
-                    <span>Cerebral Palsy</span>
-                  </button>
                   <button data-tab="#prod-egg" class="tab-btn  wow fadeInUp" data-wow-delay="400ms">
                     <i aria-hidden="true" class=" flaticon-set-consultation"></i>
                     <span>ADHD</span>
                   </button>
-                  <button data-tab="#prod-male" class="tab-btn  wow fadeInUp" data-wow-delay="500ms">
-                    <i aria-hidden="true" class=" flaticon-set-healthcare"></i>
-                    <span>Cancer Treatment</span>
+                   <button data-tab="#prod-speech" class="tab-btn  wow fadeInUp" data-wow-delay="400ms">
+                    <i aria-hidden="true" class=" flaticon-set-consultation"></i>
+                    <span>Speech Disorder</span>
                   </button>
+                   <button data-tab="#prod-behaviour" class="tab-btn  wow fadeInUp" data-wow-delay="400ms">
+                    <i aria-hidden="true" class=" flaticon-set-consultation"></i>
+                    <span>Behaviour Disorder</span>
+                  </button>
+                   <button data-tab="#prod-intrauterine" class="tab-btn  wow fadeInUp" data-wow-delay="300ms">
+                    <i aria-hidden="true" class="flaticon-set-patient"></i>
+                    <span>Cerebral Palsy</span>
+                  </button>
+                  
                   <button data-tab="#prod-hormone" class="tab-btn  wow fadeInUp" data-wow-delay="600ms">
                     <i aria-hidden="true" class=" flaticon-set-medical-team"></i>
                     <span>Paralysis</span>
@@ -39,6 +44,10 @@
                   <button data-tab="#prod-lung" class="tab-btn  wow fadeInUp" data-wow-delay="800ms">
                     <i aria-hidden="true" class=" flaticon-set-health-check"></i>
                     <span>Lung Diseases</span>
+                  </button>
+                  <button data-tab="#prod-male" class="tab-btn  wow fadeInUp" data-wow-delay="500ms">
+                    <i aria-hidden="true" class=" flaticon-set-healthcare"></i>
+                    <span>Cancer Care Center</span>
                   </button>
                 </div>
               </div>
@@ -52,7 +61,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{ url ('assets/images/services/autism.png')}}" alt=""></div> <div class="h3 title">Autism</div>
+                          <div class="image"><img src="{{ url ('assets/images/services/autism.jpeg')}}" alt=""></div> <div class="h3 title">Autism</div>
                           <div class="text">Autism, or Autism Spectrum Disorder (ASD), is a complex neurodevelopmental condition that affects how a person communicates, behaves, and interacts with others.</div>
                           <a href="{{ route('autism') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -69,7 +78,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{url('assets/images/services/cerebral-palsy.jpeg')}}" alt=""></div> <div class="h3 title">Cerebral Palsy</div>
+                          <div class="image"><img src="{{url('assets/images/services/cerebral.jpeg')}}" alt=""></div> <div class="h3 title">Cerebral Palsy</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
                           <a href="{{ route('cerebral-palsy') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -86,7 +95,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{ url ('assets/images/services/ADHD-in-Adults.jpg')}}" alt=""></div> <div class="h3 title">ADHD</div>
+                          <div class="image"><img src="{{ url ('assets/images/services/adhd.jpeg')}}" alt=""></div> <div class="h3 title">ADHD</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
                           <a href="{{ route('adhd') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -103,8 +112,40 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{url('assets/images/services/cancer-treatment.jpg')}}" alt=""></div> <div class="h3 title">Cancer Treatment</div>
+                          <div class="image"><img src="{{url('assets/images/services/cancer care center.png')}}" alt=""></div> <div class="h3 title">Cancer Care Center</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
+                          <a href="{{ route('cancer-treatment') }}" class="theme-btn btn-style-one">
+                            <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
+                            <span class="btn-title">View All Services</span>
+                            <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tab -->
+                  <div class="tab" id="prod-speech">
+                    <div class="tab-inner-content">
+                      <div class="content-box">
+                        <div class="inner-box">
+                          <div class="image"><img src="{{url('assets/images/services/speech-disorder.jpeg')}}" alt=""></div> <div class="h3 title">Speech Disorder</div>
+                          <div class="text">We combine evidence-based speech therapy techniques with compassionate, child-centered care. Our experienced speech-language therapists help children improve communication, language development, speech clarity, and social interaction through personalized therapy programs designed to meet each child's unique needs.</div>
+                          <a href="{{ route('cancer-treatment') }}" class="theme-btn btn-style-one">
+                            <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
+                            <span class="btn-title">View All Services</span>
+                            <span class="btn-arrow-right"><i class="fas flaticon-common-right-arrow"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tab -->
+                  <div class="tab" id="prod-behaviour">
+                    <div class="tab-inner-content">
+                      <div class="content-box">
+                        <div class="inner-box">
+                          <div class="image"><img src="{{url('assets/images/services/behaviour-disorder.jpeg')}}" alt=""></div> <div class="h3 title">Behaviour Disorder</div>
+                          <div class="text">We combine proven behavioral intervention strategies with compassionate, individualized care. Our experienced behavioral specialists help children develop positive behaviors, emotional regulation, social skills, and daily living abilities through customized therapy plans that empower them to thrive at home, school, and in everyday life.</div>
                           <a href="{{ route('cancer-treatment') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
                             <span class="btn-title">View All Services</span>
@@ -136,7 +177,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{url('assets/images/services/diabetics.jpg')}}" alt=""></div> <div class="h3 title">Diabetes</div>
+                          <div class="image"><img src="{{url('assets/images/services/diabetes.jpeg')}}" alt=""></div> <div class="h3 title">Diabetes</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
                           <a href="{{ route('diabetes') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
@@ -152,7 +193,7 @@
                     <div class="tab-inner-content">
                       <div class="content-box">
                         <div class="inner-box">
-                          <div class="image"><img src="{{url('assets/images/services/lung-disease.jpg')}}" alt=""></div> <div class="h3 title">Lung Disease</div>
+                          <div class="image"><img src="{{url('assets/images/services/lung disease.jpeg')}}" alt=""></div> <div class="h3 title">Lung Disease</div>
                           <div class="text">we combine cutting-edge reproductive science with compassionate care. Our fertility specialists have helped thousands of families achieve their dream of parenthood through personalized IVF treatment plans.</div>
                           <a href="{{ route('lung-diseases') }}" class="theme-btn btn-style-one">
                             <span class="btn-arrow-left"><i class="fas flaticon-common-right-arrow"></i></span>
