@@ -61,15 +61,9 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/autism.jpeg" alt="" />
                         <div class="h3 mt-4">Autism</div>
-                        <p>Autism Spectrum Disorder (ASD) is a developmental condition that affects how a person
-                            communicates, interacts, learns, and experiences the world around them. Every individual with
-                            autism is unique, with different strengths, abilities, and challenges. Early identification and
-                            personalized support can help children develop essential life skills, improve communication, and
-                            build confidence for a brighter future.</p>
-                        <p>At our center, we provide comprehensive autism assessment, therapy, and intervention programs
-                            designed to support each child's individual needs. Our dedicated team works closely with
-                            families to create a nurturing environment that promotes growth, independence, and social
-                            development.</p>
+                        <p align="justify">Autism Spectrum Disorder (ASD) is a developmental condition that affects how a person communicates, interacts, learns, and experiences the world around them. Every individual with autism is unique, with different strengths, abilities, and challenges. Early identification and personalized support can help children develop essential life skills, improve communication, and build confidence for a brighter future. At our center, we provide comprehensive autism assessment, therapy, and intervention programs designed to support each child's individual needs. Our dedicated team works closely with families to create a nurturing environment that promotes growth, independence, and social development. 
+</p>
+                        
                         <div class="content mt-40">
                             <div class="text">
                                 <div class="h3">We Deliver Personalized Care Every Day</div>
@@ -79,15 +73,73 @@
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                         <div class="h5">Communication Development</div>
-                                        <p>Our specialized therapies help children improve verbal and non-verbal communication skills, express their needs effectively, and build stronger connections with family members, peers, and caregivers.</p>
+                                    <div class="h5">Common Autism Symptoms</div>
+                                         <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Delayed speech or language development</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Limited eye contact</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Difficulty interacting with others</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Repetitive movements or behaviors</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Prefers to play alone</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Difficulty understanding emotions or social cues</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Social & Behavioral Growth</div>
-                                        <p>We support children in developing social skills, emotional regulation, positive behaviors, and daily living abilities through engaging activities and evidence-based intervention strategies.</p>
-                                    </div>
+                                            <div class="h5">Our Holistic Care Approach</div>
+                                            <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>100% Natural Extracts</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Chemicals</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Color, Smell or Taste</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Personalized Treatment</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Supports Natural Healing</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Safe & Gentle Care</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                 </div>
                             </div>
                         </div>

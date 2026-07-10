@@ -3,9 +3,9 @@
 @section('content')
 
 @include('frontend.components.home.hero')
-@include('frontend.components.home.who-we-are')
 @include('frontend.components.home.services')
 @include('frontend.components.home.why-choose-us')
+@include('frontend.components.home.who-we-are')
 @include('frontend.components.home.stats')
 @include('frontend.components.home.achievements')
 @include('frontend.components.home.testimonials')

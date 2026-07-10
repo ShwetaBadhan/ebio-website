@@ -11,8 +11,8 @@
                 <div class="footer-column border-0 col-xl-3 col-lg-9">
                   <div class="footer-widget about-widget wow fadeInLeft">
                     <div class="widget-content">
-                      <div class="logo"><a href="{{ route('home') }}"><img src="assets/images/logo/logo.png" alt=""></a></div>
-                      <div class="text text-white">Contrary to popular belief, Lorem Ipsum is not simply random text this isni It has rootsThe property business.</div>
+                      <div class="logo"><a href="{{ route('home') }}"><img src="assets/images/logo/white-logo.png" alt=""></a></div>
+                      <div class="text text-white">Holistic healing through natural Electropathy for better health and well-being. </div>
                       <div class="social-widget">
                         <ul class="social-icon-list1">
                           <li><a href="https://www.facebook.com/profile.php?id=61574610337179" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -61,12 +61,12 @@
                   </div>
                 </div>
                 <div class="footer-column border-0 col-xl-3 col-lg-4 col-md-6">
-                  <div class="footer-widget newsletter-widget style-two col wow fadeInLeft" data-wow-delay="400ms"> <div class="h4 widget-title">About</div>
+                  <div class="footer-widget newsletter-widget style-two col wow fadeInLeft" data-wow-delay="400ms">
+                   <div class="h4 widget-title">Directions</div>
                     <div class="widget-content">
-                      <div class="text">Contrary to popular belief, Lorem Ipsum is not simply random text this isni It has rootsThe property business.</div>
+                     
                       <div class="form-clt">
-                        <input type="email" name="email" id="email2" placeholder="Email Address" required="">
-                        <button class="submit-btn" type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d109221.20501736997!2d75.36426142836406!3d31.18850305922221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!3m2!1d31.1471305!2d75.34121789999999!4m5!1s0xa8123c1222b46f17%3A0x3d6fe4dc89abc523!2sEBio%20Cares%2C%20near%20lambra%2C%20VPO%2C%20Phoolpur%2C%20Jalandhar%2C%20Punjab%20144026!3m2!1d31.254499!2d75.55927989999999!5e0!3m2!1sen!2sin!4v1783685624805!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                       </div>
                     </div>
                   </div>
@@ -78,7 +78,7 @@
           <div class="auto-container">
             <div class="footer-bottom">
               <div class="inner-container justify-content-center justify-content-md-between">
-                <p class="copyright-text">© Copyright <?php echo date('Y')?> E-Bio Cares.</p>
+                <p class="copyright-text">© Copyright <?php echo date('Y')?> E-Bio-Cares | Developed by DS Innovative Solutions</p>
                 <ul class="d-flex align-items-center">
                   <li><a href="#0">Terms & Condition</a></li>
                   <li><a href="#0">Privacy Policy</a></li>

@@ -4,43 +4,48 @@
         <div class="row">
           <div class="content-column col-xl-6 col-lg-8">
             <div class="inner-column">
-              <div class="sec-title"> <div class="h6 sub-title">Why Choose Us</div> <div class="h2 title char-animation">Why Choose Electropathy, Biopathy ?</div>
-                <div class="text">At E-Bio-Cares, we believe in using the power of plants to help your body heal itself. Our approach is simple - we want to balance your body, getting rid of any issues by making sure your blood and lymphatic systems work together smoothly.</div>
+              <div class="sec-title"> <div class="h6 sub-title">Why Choose Us</div> 
+              <div class="h2 title char-animation">What Makes Our Treatment Different?</div>
+                <div class="text" align="justify">
+                At EBioCare, we provide natural, chemical-free Electropathy treatment for a wide range of developmental, neurological, respiratory, and chronic health conditions. Every treatment plan is personalized using naturally extracted plant-based remedies to support the body's natural healing process, promote overall wellness, and improve quality of life through a holistic approach to care. 
+</div>
               </div>
               <ul class="accordion-box">
                 <!--Block-->
                 <li class="accordion block wow fadeInUp" data-wow-delay="200ms">
-                  <div class="acc-btn">01. 100 % Organic
+                  <div class="acc-btn">01.  Naturally Extracted
                     <i class="icon flaticon-common-right-arrow"></i>
                   </div>
                   <div class="acc-content">
                     <div class="content">
-                      <div class="text">Pure, Natural, and Free from chemicals-just as nature intended!</div>
+                      <div class="text">Prepared from carefully selected natural sources.</div>
                     </div>
                   </div>
                 </li>
                 <!--Block-->
                 <li class="accordion block active-block wow fadeInUp" data-wow-delay="400ms">
-                  <div class="acc-btn active">02. Best Quality
+                  <div class="acc-btn active">02. 100% Chemical-Free
                     <i class="icon flaticon-common-right-arrow"></i>
                   </div>
                   <div class="acc-content current">
                     <div class="content">
-                      <div class="text">Uncompromising excellence in every product!</div>
+                      <div class="text">No harmful chemicals or synthetic ingredients.</div>
                     </div>
                   </div>
                 </li>
                 <!--Block-->
                 <li class="accordion block wow fadeInUp" data-wow-delay="600ms">
-                  <div class="acc-btn">03. Hygienic Product
+                  <div class="acc-btn">03. No Artificial Colors ,Odor-Free ,No Taste
                     <i class="icon flaticon-common-right-arrow"></i>
                   </div>
                   <div class="acc-content">
                     <div class="content">
-                      <div class="text">Ensuring Purity and Cleanliness in every use!</div>
+                      <div class="text">Pure formulations without added coloring agents. No unpleasant smell, making treatment comfortable. Tasteless liquid medicine that is easy for children and adults.</div>
                     </div>
                   </div>
                 </li>
+               
+               
               </ul>
             </div>
           </div>

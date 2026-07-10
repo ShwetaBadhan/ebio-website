@@ -61,8 +61,10 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/speech-disorder.jpeg" alt="" />
                         <div class="h3 mt-4">Speech Disorder</div>
-                        <p>Speech disorders can affect a child's ability to speak clearly, communicate effectively, and express thoughts with confidence. Difficulties may include speech delay, unclear pronunciation, stammering, or language development challenges. Early speech therapy helps improve communication, confidence, and social interaction.</p>
-                        <p>At our center, we provide comprehensive speech and language assessments along with personalized speech therapy programs. Our experienced speech therapists help children develop clear speech, language skills, and effective communication for success at home, school, and in everyday life.</p>
+                        <p align="justify">Speech Disorder is a condition that affects a child's ability to speak clearly, understand language, or express their thoughts. Some children may have delayed speech, unclear pronunciation, stammering, or difficulty communicating with others.
+.</p>
+                        <p align="justify">At our center, we provide personalized assessment and natural therapy to help improve speech, language, and communication skills. Our experienced team works closely with parents to build each child's confidence, enhance social interaction, and support their overall development.
+</p>
                         <div class="content mt-40">
                             <div class="text">
                                 <div class="h3">We Deliver Personalized Care Every Day</div>
@@ -73,14 +75,73 @@
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
                                         <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                         <div class="h5">Attention & Learning Enhancement</div>
-                                        <p>We help children improve focus, concentration, listening skills, task completion, and academic performance through structured activities and individualized therapeutic strategies designed to support learning and development.</p>
+                                         <div class="h5">Speech Disorder – Common Symptoms</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Delayed speech development</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Difficulty pronouncing words clearly</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Stammering or stuttering while speaking</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Trouble understanding or expressing language</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Limited vocabulary for their age</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Difficulty communicating with others</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Behavioral & Emotional Development</div>
-                                        <p>Our programs focus on improving self-regulation, impulse control, emotional management, social interactions, and organizational skills, helping children build stronger relationships and succeed at home, school, and in the community.</p>
-                                    </div>
+                                            <div class="h5">Our Holistic Care Approach</div>
+                                            <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>100% Natural Extracts</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Chemicals</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Color, Smell or Taste</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Personalized Treatment</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Supports Natural Healing</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Safe & Gentle Care</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                 </div>
                             </div>
                         </div>

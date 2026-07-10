@@ -23,7 +23,7 @@
                 <div class="col-lg-5">
 
                     <div class="breadcrumb-form">
-                      @include('frontend.components.service-form')
+                        @include('frontend.components.service-form')
                     </div>
                 </div>
 
@@ -61,29 +61,94 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/behaviour-disorder.jpeg" alt="" />
                         <div class="h3 mt-4">Behaviour Disorder</div>
-                        <p> Behaviour disorders can impact a child's emotional control, social skills, and daily activities. Children may experience aggression, hyperactivity, defiance, impulsive behavior, or difficulty following routines. Early behavioural therapy helps children develop positive habits and emotional well-being.</p>
-                                              <p>
-                                                At our center, we offer professional behavioural assessments and individualized therapy programs tailored to each child's needs. Our specialists work with children and families to improve behaviour, emotional regulation, social interaction, and overall development.</p>
+                        <p align="justify"> Behaviour Disorder refers to ongoing patterns of challenging behavior that can
+                            affect a child's learning, relationships, and daily life. Children may experience frequent
+                            anger, aggression, hyperactivity, difficulty following instructions, emotional outbursts, or
+                            problems interacting with others.
+                        <p>
+                        <p align="justify">At our center, we provide personalized assessment and natural therapy to help
+                            improve emotional balance, behavior, focus, and social skills. Our caring team partners with
+                            families to support positive behavioral changes, build confidence, and help every child lead a
+                            happier and more independent lif
+                        </p>
                         <div class="content mt-40">
                             <div class="text">
-                                <div class="h3">We Deliver Personalized Care Every Day</div>
-                                <p>At Ebiocare, our individualized behavioural therapy programs empower children to manage emotions, develop positive behaviours, and build essential social and life skills in a supportive environment.</p>
-                              
-                            </div>
-                            <div class="feature-list mt-4">
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                         <div class="h5">Attention & Learning Enhancement</div>
-                                        <p>We help children improve focus, concentration, listening skills, task completion, and academic performance through structured activities and individualized therapeutic strategies designed to support learning and development.</p>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Behavioral & Emotional Development</div>
-                                        <p>Our programs focus on improving self-regulation, impulse control, emotional management, social interactions, and organizational skills, helping children build stronger relationships and succeed at home, school, and in the community.</p>
+                                <div class="feature-list mt-4">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+
+                                            <div class="h5">Behaviour Disorder – Common Symptoms</div>
+                                            <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Frequent anger or emotional outbursts</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Aggressive or disruptive behavior</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Difficulty following rules or instructions</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Poor attention and concentration</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Impulsive actions without thinking</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Difficulty interacting with family or peers</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="h5">Our Holistic Care Approach</div>
+                                            <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>100% Natural Extracts</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Chemicals</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Color, Smell or Taste</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Personalized Treatment</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Supports Natural Healing</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Safe & Gentle Care</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
                         <div class=" mt-25">
                             <div class="h3">Frequently Asked Question</div>
@@ -92,76 +157,89 @@
                             </p> --}}
                             <ul class="accordion-box">
                                 <!--Block-->
-                            <li class="accordion block">
-    <div class="acc-btn">What is a Behaviour Disorder?
-        <i class="icon fa-solid fa-chevron-down"></i>
-    </div>
-    <div class="acc-content">
-        <div class="content">
-            <div class="text">A behaviour disorder is a condition that causes persistent emotional or behavioural challenges, affecting a child's learning, relationships, and daily activities.</div>
-        </div>
-    </div>
-</li>
+                                <li class="accordion block">
+                                    <div class="acc-btn">What is a Behaviour Disorder?
+                                        <i class="icon fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="acc-content">
+                                        <div class="content">
+                                            <div class="text">A behaviour disorder is a condition that causes persistent
+                                                emotional or behavioural challenges, affecting a child's learning,
+                                                relationships, and daily activities.</div>
+                                        </div>
+                                    </div>
+                                </li>
 
-<!--Block-->
-<li class="accordion block active-block">
-    <div class="acc-btn active">What are the signs of a Behaviour Disorder?
-        <i class="icon fa-solid fa-chevron-down"></i>
-    </div>
-    <div class="acc-content current">
-        <div class="content">
-            <div class="text">Common signs include aggression, impulsive behaviour, frequent anger, hyperactivity, emotional outbursts, defiance, difficulty following rules, and poor social interactions.</div>
-        </div>
-    </div>
-</li>
+                                <!--Block-->
+                                <li class="accordion block active-block">
+                                    <div class="acc-btn active">What are the signs of a Behaviour Disorder?
+                                        <i class="icon fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="acc-content current">
+                                        <div class="content">
+                                            <div class="text">Common signs include aggression, impulsive behaviour,
+                                                frequent anger, hyperactivity, emotional outbursts, defiance, difficulty
+                                                following rules, and poor social interactions.</div>
+                                        </div>
+                                    </div>
+                                </li>
 
-<!--Block-->
-<li class="accordion block">
-    <div class="acc-btn">Can Behaviour Disorders be treated?
-        <i class="icon fa-solid fa-chevron-down"></i>
-    </div>
-    <div class="acc-content">
-        <div class="content">
-            <div class="text">Yes. Early behavioural therapy and personalized intervention programs can help children improve emotional regulation, behaviour, and social skills.</div>
-        </div>
-    </div>
-</li>
+                                <!--Block-->
+                                <li class="accordion block">
+                                    <div class="acc-btn">Can Behaviour Disorders be treated?
+                                        <i class="icon fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="acc-content">
+                                        <div class="content">
+                                            <div class="text">Yes. Early behavioural therapy and personalized intervention
+                                                programs can help children improve emotional regulation, behaviour, and
+                                                social skills.</div>
+                                        </div>
+                                    </div>
+                                </li>
 
-<!--Block-->
-<li class="accordion block">
-    <div class="acc-btn">How is a Behaviour Disorder diagnosed?
-        <i class="icon fa-solid fa-chevron-down"></i>
-    </div>
-    <div class="acc-content">
-        <div class="content">
-            <div class="text">A behaviour disorder is diagnosed through comprehensive behavioural assessments, observations, and discussions with parents, teachers, and healthcare professionals.</div>
-        </div>
-    </div>
-</li>
+                                <!--Block-->
+                                <li class="accordion block">
+                                    <div class="acc-btn">How is a Behaviour Disorder diagnosed?
+                                        <i class="icon fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="acc-content">
+                                        <div class="content">
+                                            <div class="text">A behaviour disorder is diagnosed through comprehensive
+                                                behavioural assessments, observations, and discussions with parents,
+                                                teachers, and healthcare professionals.</div>
+                                        </div>
+                                    </div>
+                                </li>
 
-<!--Block-->
-<li class="accordion block">
-    <div class="acc-btn">What treatments are available for Behaviour Disorders?
-        <i class="icon fa-solid fa-chevron-down"></i>
-    </div>
-    <div class="acc-content">
-        <div class="content">
-            <div class="text">Treatment may include behavioural therapy, parent training, social skills training, counselling, and individualized intervention programs based on each child's needs.</div>
-        </div>
-    </div>
-</li>
+                                <!--Block-->
+                                <li class="accordion block">
+                                    <div class="acc-btn">What treatments are available for Behaviour Disorders?
+                                        <i class="icon fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="acc-content">
+                                        <div class="content">
+                                            <div class="text">Treatment may include behavioural therapy, parent training,
+                                                social skills training, counselling, and individualized intervention
+                                                programs based on each child's needs.</div>
+                                        </div>
+                                    </div>
+                                </li>
 
-<!--Block-->
-<li class="accordion block">
-    <div class="acc-btn">Can children with Behaviour Disorders lead successful lives?
-        <i class="icon fa-solid fa-chevron-down"></i>
-    </div>
-    <div class="acc-content">
-        <div class="content">
-            <div class="text">Yes. With early intervention, professional support, and family involvement, children can develop positive behaviours, build confidence, and achieve success at home, school, and in social settings.</div>
-        </div>
-    </div>
-</li>
+                                <!--Block-->
+                                <li class="accordion block">
+                                    <div class="acc-btn">Can children with Behaviour Disorders lead successful lives?
+                                        <i class="icon fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="acc-content">
+                                        <div class="content">
+                                            <div class="text">Yes. With early intervention, professional support, and
+                                                family involvement, children can develop positive behaviours, build
+                                                confidence, and achieve success at home, school, and in social settings.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                         </div>
                     </div>
                 </div>

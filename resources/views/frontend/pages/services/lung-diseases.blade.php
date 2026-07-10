@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/lung disease.jpeg);">
+    <section class="page-title" style="background-image: url('assets/images/services/lung disease.jpeg');">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -61,38 +61,80 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/lung disease.jpeg" alt="" />
                         <div class="h3 mt-4">Lung Diseases</div>
-                        <p>Lung diseases encompass a wide range of respiratory conditions that affect the lungs and airways,
-                            making it difficult to breathe and perform daily activities comfortably. Common lung conditions
-                            include asthma, chronic obstructive pulmonary disease (COPD), bronchitis, pneumonia, pulmonary
-                            fibrosis, and other respiratory disorders. Early diagnosis and timely treatment are essential to
-                            improve lung function, manage symptoms, and enhance overall quality of life.</p>
-                        <p>At our center, we provide comprehensive evaluation, diagnosis, and treatment services for various
-                            lung diseases. Our experienced healthcare professionals use advanced diagnostic tools and
-                            personalized treatment plans to address each patient's unique respiratory health needs.</p>
+                        <p align="justify">Lung Diseases are conditions that affect the lungs and make breathing difficult. Common symptoms include shortness of breath, frequent cough, wheezing, chest discomfort, and reduced energy levels.
+</p>
+                        <p align="justify">At our center, we provide personalized natural care to support healthy lung function and overall respiratory wellness. Our treatment approach focuses on improving breathing, strengthening the body's natural healing process, and helping patients enjoy a healthier, more comfortable life./p>
                         <div class="content mt-40">
-                            <div class="text">
-                                <div class="h3">We Deliver Personalized Care Every Day</div>
-                                <p>Our lung disease management programs are designed to help patients achieve better
-                                    breathing, improved lung function, and enhanced quality of life through personalized and
-                                    comprehensive care.</p>
-
-                            </div>
+                            
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Advanced Diagnosis & Respiratory Treatment</div>
-                                        <p>We offer detailed respiratory assessments, lung function testing, medication
-                                            management, and customized treatment plans to effectively manage a variety of
-                                            lung conditions and reduce the risk of complications.</p>
+                                      <div class="h5">Paralysis – Common Symptoms</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Persistent cough</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Shortness of breath</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Wheezing while breathing</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Chest tightness or discomfort</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Frequent respiratory infections</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Fatigue due to breathing difficulty</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Pulmonary Rehabilitation & Lifestyle Support</div>
-                                        <p>Our team provides breathing exercises, pulmonary rehabilitation programs,
-                                            lifestyle counseling, smoking cessation guidance, and preventive care strategies
-                                            to help patients strengthen lung function and improve daily living.
-                                        </p>
+                                       <div class="h5">Our Holistic Care Approach</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>100% Natural Extracts</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Chemicals</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Color, Smell or Taste</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Personalized Treatment</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Supports Natural Healing</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Safe & Gentle Care</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

@@ -61,40 +61,84 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/cerebral.jpeg" alt="" />
                         <div class="h3 mt-4">Paralysis</div>
-                        <p>Paralysis is a condition characterized by the loss of muscle function in one or more parts of the
-                            body, often resulting from stroke, spinal cord injury, neurological disorders, or traumatic
-                            injuries. Depending on the severity and underlying cause, paralysis can affect movement,
-                            sensation, coordination, and daily activities. Early rehabilitation and specialized care play a
-                            crucial role in maximizing recovery and improving independence.</p>
-                        <p>At our center, we provide comprehensive evaluation, rehabilitation, and therapy programs tailored
-                            to the individual needs of each patient. Our experienced team of healthcare professionals
-                            focuses on restoring mobility, improving physical function, and enhancing overall quality of
-                            life through personalized treatment plans.</p>
+                        <p align="justify">Paralysis is the loss of muscle movement in one or more parts of the body, often
+                            caused by nerve damage, stroke, or injury. It can affect daily activities, balance, and
+                            independence, making even simple tasks challenging.</p>
+                        <p align="justify">At our center, we offer personalized assessment and natural therapy designed to
+                            support recovery, improve mobility, strengthen muscles, and enhance overall well-being. Our
+                            dedicated team is committed to helping patients regain confidence and lead a more active life.
+                        </p>
                         <div class="content mt-40">
-                            <div class="text">
-                                <div class="h3">We Deliver Personalized Care Every Day</div>
-                                <p>Our paralysis rehabilitation programs are designed to promote recovery, improve mobility,
-                                    and help patients adapt to daily activities with confidence and independence.</p>
 
-                            </div>
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Mobility & Physical Rehabilitation</div>
-                                        <p>Our therapy programs focus on improving muscle strength, balance, coordination,
-                                            posture, and movement through targeted exercises and advanced rehabilitation
-                                            techniques. We aim to help patients regain functional mobility and maximize
-                                            physical independence.</p>
+                                        <div class="h5">Paralysis – Common Symptoms</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Loss of movement in a body part</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Muscle weakness or stiffness</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Difficulty walking or standing</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Numbness or reduced sensation</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Poor balance and coordination</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Difficulty performing daily activities</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Daily Living & Functional Recovery</div>
-                                        <p>We assist patients in developing essential self-care skills, improving motor
-                                            function, enhancing communication and cognitive abilities when needed, and
-                                            adapting to everyday activities, helping them achieve a more active and
-                                            fulfilling life.
-                                        </p>
+                                        <div class="h5">Our Holistic Care Approach</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>100% Natural Extracts</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Chemicals</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Color, Smell or Taste</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Personalized Treatment</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Supports Natural Healing</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Safe & Gentle Care</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

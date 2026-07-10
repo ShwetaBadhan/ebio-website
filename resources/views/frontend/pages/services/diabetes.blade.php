@@ -61,39 +61,83 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/diabetes.jpeg" alt="" />
                         <div class="h3 mt-4">Diabetes</div>
-                        <p>Diabetes is a chronic health condition that affects how the body processes blood sugar (glucose).
-                            If not properly managed, diabetes can lead to serious complications affecting the heart,
-                            kidneys, eyes, nerves, and overall well-being. Early diagnosis, lifestyle modifications, regular
-                            monitoring, and appropriate medical care are essential for maintaining healthy blood sugar
-                            levels and preventing long-term complications.</p>
-                        <p>At our center, we provide comprehensive diabetes care focused on prevention, management, and
-                            long-term health improvement. Our experienced healthcare professionals work closely with
-                            patients to develop personalized treatment plans that address their specific needs, lifestyle,
-                            and health goals.</p>
+                        <p align="justify">Diabetes is a condition in which the body is unable to properly regulate blood
+                            sugar levels. If not managed effectively, it can affect the heart, kidneys, eyes, nerves, and
+                            overall health.</p>
+                        <p align="justify">At our center, we provide personalized natural care to support healthy blood
+                            sugar management and overall wellness. Our goal is to help patients improve their energy,
+                            maintain a healthier lifestyle, and reduce the risk of diabetes-related complications
+                        </p>
                         <div class="content mt-40">
-                            <div class="text">
-                                <div class="h3">We Deliver Personalized Care Every Day</div>
-                                <p>Our diabetes management programs are designed to help patients control blood sugar
-                                    levels, prevent complications, and improve overall health through a holistic and
-                                    patient-centered approach.</p>
-
-                            </div>
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Blood Sugar Management & Monitoring</div>
-                                        <p>We provide comprehensive assessments, regular monitoring, medication management,
-                                            and individualized treatment plans to help patients maintain optimal blood
-                                            glucose levels and reduce the risk of diabetes-related complications.</p>
+                                        <div class="h5">Diabetes – Common Symptoms</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Frequent urination</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Increased thirst</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Constant hunger</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Unexplained weight loss</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Fatigue or weakness</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Slow healing of cuts and wounds</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Lifestyle Support & Preventive Care</div>
-                                        <p>Our team offers nutritional counseling, weight management guidance, exercise
-                                            recommendations, and education on healthy lifestyle practices to support
-                                            long-term diabetes control and overall well-being.
-                                        </p>
+                                        <div class="h5">Our Holistic Care Approach</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>100% Natural Extracts</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Chemicals</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Color, Smell or Taste</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Personalized Treatment</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Supports Natural Healing</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Safe & Gentle Care</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +219,8 @@
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                            <div class="text">Monitoring frequency varies depending on your treatment plan
+                                            <div class="text">Monitoring frequency varies depending on your treatment
+                                                plan
                                                 and should be discussed with your healthcare provider.
                                             </div>
                                         </div>

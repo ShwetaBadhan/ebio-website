@@ -23,7 +23,7 @@
                 <div class="col-lg-5">
 
                     <div class="breadcrumb-form">
-                      @include('frontend.components.service-form')
+                        @include('frontend.components.service-form')
                     </div>
                 </div>
 
@@ -61,35 +61,93 @@
                     <div class="services-details__content">
                         <img class="w-100" src="assets/images/services/cerebral.jpeg" alt="" />
                         <div class="h3 mt-4">Cerebral Palsy</div>
-                        <p>Cerebral Palsy Spectrum Disorder is a developmental condition that affects how a person
-                            communicates, interacts, learns, and experiences the world around them. Every individual with
-                            Cerebral Palsy is unique, with different strengths, abilities, and challenges. Early identification and
-                            personalized support can help children develop essential life skills, improve communication, and
-                            build confidence for a brighter future.</p>
-                        <p>At our center, we provide comprehensive Cerebral Palsy assessment, therapy, and intervention programs
-                            designed to support each child's individual needs. Our dedicated team works closely with
-                            families to create a nurturing environment that promotes growth, independence, and social
-                            development.</p>
+                        <p align="justify">Cerebral Palsy (CP) is a neurological condition that affects a child's movement,
+                            muscle control, balance, and posture. Children with CP may have difficulty walking, sitting,
+                            speaking, or performing everyday activities, but with the right support, they can improve their
+                            abilities and quality of life.
+                        </p>
+                        <p align="justify">At our center, we provide personalized assessment and natural therapy to help
+                            improve mobility, coordination, muscle strength, balance, and overall development. Our
+                            compassionate team works closely with families to help every child achieve greater independence
+                            and confidence.
+                        </p>
                         <div class="content mt-40">
                             <div class="text">
-                                <div class="h3">We Deliver Personalized Care Every Day</div>
-                                <p>Our Cerebral Palsy support programs focus on creating meaningful progress through structured learning, therapeutic activities, and family-centered care. We understand that every child learns differently, and our individualized approach ensures the best possible outcomes.</p>
-                              
-                            </div>
-                            <div class="feature-list mt-4">
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                         <div class="h5">Physical Mobility & Motor Skills</div>
-                                        <p>Our therapy programs focus on improving muscle strength, balance, coordination, posture, and movement patterns. Through targeted exercises and therapeutic interventions, we help children enhance mobility and perform daily activities more independently.</p>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Functional Independence & Daily Living</div>
-                                        <p>We assist children in developing essential life skills, improving hand-eye coordination, enhancing self-care abilities, and increasing participation in school, home, and social environments, helping them lead more active and fulfilling lives.</p>
+                                <div class="feature-list mt-4">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="h5">Cerebral Palsy (CP) – Common Symptoms</div>
+                                            <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Delayed milestones like sitting or walking</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Poor balance and coordination</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Muscle stiffness or weakness</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Difficulty walking or moving</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Involuntary body movements</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Speech or swallowing difficulties</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="h5">Our Holistic Care Approach</div>
+                                            <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>100% Natural Extracts</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Chemicals</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>No Color, Smell or Taste</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Personalized Treatment</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Supports Natural Healing</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                    <span>Safe & Gentle Care</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
                         <div class=" mt-25">
                             <div class="h3">Frequently Asked Question</div>
@@ -104,7 +162,9 @@
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                            <div class="text">Cerebral Palsy (CP) is a neurological condition that affects movement, muscle coordination, posture, and balance due to damage to the developing brain.</div>
+                                            <div class="text">Cerebral Palsy (CP) is a neurological condition that affects
+                                                movement, muscle coordination, posture, and balance due to damage to the
+                                                developing brain.</div>
                                         </div>
                                     </div>
                                 </li>
@@ -115,7 +175,9 @@
                                     </div>
                                     <div class="acc-content current">
                                         <div class="content">
-                                            <div class="text">Symptoms may include muscle stiffness, poor coordination, difficulty walking, involuntary movements, speech difficulties, and challenges with daily activities.</div>
+                                            <div class="text">Symptoms may include muscle stiffness, poor coordination,
+                                                difficulty walking, involuntary movements, speech difficulties, and
+                                                challenges with daily activities.</div>
                                         </div>
                                     </div>
                                 </li>
@@ -126,7 +188,9 @@
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                            <div class="text">There is currently no cure for Cerebral Palsy, but therapies and supportive treatments can help improve mobility, independence, and quality of life. </div>
+                                            <div class="text">There is currently no cure for Cerebral Palsy, but therapies
+                                                and supportive treatments can help improve mobility, independence, and
+                                                quality of life. </div>
                                         </div>
                                     </div>
                                 </li>
@@ -137,7 +201,9 @@
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                            <div class="text">Treatment options may include physical therapy, occupational therapy, speech therapy, medications, assistive devices, and specialized rehabilitation programs. </div>
+                                            <div class="text">Treatment options may include physical therapy, occupational
+                                                therapy, speech therapy, medications, assistive devices, and specialized
+                                                rehabilitation programs. </div>
                                         </div>
                                     </div>
                                 </li>
@@ -148,7 +214,8 @@
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                            <div class="text">Early intervention often provides the best outcomes by helping children develop essential motor and communication skills.</div>
+                                            <div class="text">Early intervention often provides the best outcomes by
+                                                helping children develop essential motor and communication skills.</div>
                                         </div>
                                     </div>
                                 </li>
@@ -159,7 +226,8 @@
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                            <div class="text">Yes. Ongoing therapy can help maintain mobility, reduce pain, and improve overall function throughout adulthood.</div>
+                                            <div class="text">Yes. Ongoing therapy can help maintain mobility, reduce
+                                                pain, and improve overall function throughout adulthood.</div>
                                         </div>
                                     </div>
                                 </li>

@@ -62,12 +62,14 @@
             <select name="service" class="form-select @error('service') is-invalid @enderror">
                 <option value="" disabled selected>Select a Service</option>
                 <option value="Autism" {{ old('service') == 'Autism' ? 'selected' : '' }}>Autism</option>
-                <option value="Cerebral Palsy" {{ old('service') == 'Cerebral Palsy' ? 'selected' : '' }}>Cerebral Palsy</option>
                 <option value="ADHD" {{ old('service') == 'ADHD' ? 'selected' : '' }}>ADHD</option>
-                <option value="Cancer Treatment" {{ old('service') == 'Cancer Treatment' ? 'selected' : '' }}>Cancer Treatment</option>
+                <option value="Speech Disorder" {{ old('service') == 'Speech Disorder' ? 'selected' : '' }}>Speech Disorder</option>
+                <option value="Behaviour Disorder" {{ old('service') == 'Behaviour Disorder' ? 'selected' : '' }}>Behaviour Disorder</option>
+                <option value="Cerebral Palsy" {{ old('service') == 'Cerebral Palsy' ? 'selected' : '' }}>Cerebral Palsy</option>
                 <option value="Paralysis" {{ old('service') == 'Paralysis' ? 'selected' : '' }}>Paralysis</option>
                 <option value="Diabetes" {{ old('service') == 'Diabetes' ? 'selected' : '' }}>Diabetes</option>
                 <option value="Lung Diseases" {{ old('service') == 'Lung Diseases' ? 'selected' : '' }}>Lung Diseases</option>
+                <option value="Cancer Treatment" {{ old('service') == 'Cancer Care Center' ? 'selected' : '' }}>Cancer Care Center</option>
             </select>
             @error('service') <div class="invalid-feedback">{{ $message }}</div> @enderror
         </div>

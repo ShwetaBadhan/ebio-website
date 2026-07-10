@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(assets/images/bg/cancer care center.jpeg);">
+    <section class="page-title" style="background-image: url('assets/images/bg/cancer care center.png');">
         <div class="auto-container">
             <div class="row align-items-center">
 
@@ -59,46 +59,93 @@
                 <!--Start Services Details Content-->
                 <div class="col-xl-8 col-lg-8">
                     <div class="services-details__content">
-                        <img class="w-100" src="assets/images/services/cancer care center.jpeg" alt="" />
+                        <img class="w-100" src="assets/images/services/cancer care center.png" alt="" />
                         <div class="h3 mt-4">Cancer Care Center</div>
-                        <p>Cancer treatment involves a comprehensive approach to diagnosing, managing, and treating various
-                            types of cancer. Advances in medical science have made it possible to detect cancer earlier and
-                            provide more effective treatment options, improving outcomes and quality of life for patients.
-                            Every cancer journey is unique, which is why personalized treatment plans are essential for
-                            achieving the best possible results.</p>
-                        <p>At our center, we provide compassionate and patient-centered cancer care through a
-                            multidisciplinary approach. Our experienced healthcare professionals work closely with patients
-                            and their families to develop individualized treatment plans based on the type, stage, and
-                            specific needs of each case.</p>
+                        <p align="justify">Cancer is a condition in which abnormal cells grow uncontrollably and can affect
+                            different parts of the body. Early detection, proper care, and ongoing support play an important
+                            role in improving a patient's quality of life.</p>
+                        <p align="justify">At our center, we provide personalized natural supportive care designed to
+                            enhance overall well-being, strengthen the body's natural healing process, and improve quality
+                            of life during the treatment journey. We work closely with patients and their families to
+                            provide compassionate care and holistic support.</p>
                         <div class="content mt-40">
-                            <div class="text">
-                                <div class="h3">We Deliver Personalized Care Every Day</div>
-                                <p>Our cancer treatment services are designed to provide expert medical care, emotional
-                                    support, and personalized guidance throughout the treatment process. We are committed to
-                                    helping patients navigate their journey with confidence and hope.</p>
-
-                            </div>
                             <div class="feature-list mt-4">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Advanced Diagnosis & Personalized Treatment</div>
-                                        <p>We offer thorough evaluations and customized treatment plans that may include
-                                            chemotherapy, targeted therapy, immunotherapy, radiation therapy, or other
-                                            specialized treatments based on individual patient needs and medical
-                                            recommendations.</p>
+                                        <div class="h5">Cancer – Common Symptoms</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Unexplained weight loss</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Persistent fatigue or weakness</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>A lump or swelling in any part of the body</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Ongoing pain that does not improve</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Changes in skin, moles, or unusual bleeding</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Persistent cough, difficulty swallowing</span>
+                                            </li>
+
+                                        </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                        <!-- <img class="mb-3" src="assets/images/services/autisum.png" alt="images" /> -->
-                                        <div class="h5">Supportive Care & Recovery Management</div>
-                                        <p>Our team provides ongoing monitoring, symptom management, nutritional guidance,
-                                            rehabilitation support, and emotional counseling to help patients maintain their
-                                            strength, manage treatment side effects, and improve overall quality of life
-                                            during and after treatment.
-                                        </p>
+                                        <div class="h5">Our Holistic Care Approach</div>
+                                        <ul class="list-style-one wow fadeInUp" data-wow-delay="500ms">
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>100% Natural Extracts</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Chemicals</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>No Color, Smell or Taste</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Personalized Treatment</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Supports Natural Healing</span>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <span>Safe & Gentle Care</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
+                            <p align="justify">Note: These symptoms do not always indicate cancer, but if they persist or
+                                worsen, it is important to consult a qualified healthcare professional for proper evaluation
+                                and diagnosis</p>
+
                         </div>
                         <div class=" mt-25">
                             <div class="h3">Frequently Asked Question</div>

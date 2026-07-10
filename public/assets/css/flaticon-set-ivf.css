@@ -225,3 +225,10 @@ i[class^="flaticon-set-"]:before, i[class*=" flaticon-set-"]:before {
 .flaticon-set-health-check:before {
     content: "\f127";
 }
+.flaticon-set-money:before {
+    content: "\f129";
+}
+
+.flaticon-set-doctor-consultation:before {
+    content: "\f133";
+}

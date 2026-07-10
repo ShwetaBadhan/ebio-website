@@ -3,7 +3,9 @@
       <div class="outer-box fix section-padding">
         <div class="auto-container">
           <div class="row justify-content-center">
-            <div class="sec-title col-lg-6 text-center mb-50"> <div class="h6 sub-title border-style style-two">Service Area</div> <div class="h2 title char-animation">What We are offering to our potential client</div>
+            <div class="sec-title col-lg-6 text-center mb-50">
+             <div class="h6 sub-title border-style style-two">Our Treatment Specialties</div> 
+            <div class="h2 title char-animation">Diseases We Treat with Natural Electropathy Care </div>
             </div>
           </div>
 

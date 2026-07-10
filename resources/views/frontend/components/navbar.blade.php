@@ -80,7 +80,7 @@
         <nav class="menu-box">
           <div class="upper-box">
             <div class="nav-logo">
-              <a href="{{ route('home') }}"><img src="{{ url('assets/images/logo-ebio.jpg') }}" alt=""></a>
+              <a href="{{ route('home') }}"><img src="{{ url('assets/images/logo/logo.png') }}" alt=""></a>
             </div>
             <div class="close-btn"><i class="icon fa fa-times"></i></div>
           </div>
@@ -146,7 +146,7 @@
           <div class="inner-container">
             <!--Logo-->
             <div class="logo">
-              <a href="{{ route('home') }}"><img src="{{ url ('assets/images/logo-ebio.jpg')}}" alt=""></a>
+              <a href="{{ route('home') }}"><img src="{{ url ('assets/images/logo/logo.png')}}" alt=""></a>
             </div>
 
             <!--Right Col-->

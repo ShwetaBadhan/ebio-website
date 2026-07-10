@@ -2,7 +2,8 @@
     <section class="team-section section-padding fix">
       <div class="auto-container">
         <div class="row justify-content-center">
-          <div class="sec-title col-lg-7 text-center mb-30"> <div class="h6 sub-title">Team</div> <div class="h2 title">The team guiding your parenthood journey</div>
+          <div class="sec-title col-lg-7 text-center mb-30"> <div class="h6 sub-title">Our Team</div> <div class="h2 title">
+          Our Team of Holistic Care Specialists</div>
           </div>
         </div>
         <div class="swiper team-slider pb-0">

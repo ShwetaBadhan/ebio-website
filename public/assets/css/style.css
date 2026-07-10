@@ -11516,7 +11516,7 @@ Process Section
 .social-widget .social-icon-list1 li a {
   background-color: #f2f6f4;
   border-radius: 5px;
-  color: var(--theme-color-white);
+  color: var(--theme-color1);
   font-size: 18px;
   display: inline-block;
   height: 40px;
@@ -11545,7 +11545,7 @@ Process Section
   transition: all 300ms ease;
 }
 .social-widget .social-icon-list1 li a:hover {
-  background-color: var(--theme-color3);
+  background-color: var(--theme-color1);
   border-color: var(--theme-color3);
   color: var(--theme-color3-text-color);
 }
@@ -13770,7 +13770,7 @@ Page Title
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 0.5;
 }
 .page-title .title {
   font-size: 75px;
