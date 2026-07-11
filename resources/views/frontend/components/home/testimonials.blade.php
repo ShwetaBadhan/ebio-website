@@ -20,7 +20,7 @@
                                            </div>
                                            <div class="text" align="justify">
                                                My son Fateh Singh had speech and behavioral issues. After three months
-                                               of treatment at E Bio Cares, we noticed significant improvement in both
+                                               of treatment at E-Bio-Cares, we noticed significant improvement in both
                                                areas. We appreciate the doctor's guidance, caring staff, and highly
                                                recommend their services to parents.
                                            </div>
@@ -43,7 +43,7 @@
                                            </div>
                                            <div class="text">My two children had autism and ADHD symptoms, including
                                                speech delays, hyperactivity, and poor concentration. After treatment at
-                                               E Bio Cares, they showed remarkable improvement within months. We are
+                                               E-Bio-Cares, they showed remarkable improvement within months. We are
                                                extremely satisfied with the results and thankful to the team.
                                            </div>
                                            <div class="client-info">
@@ -86,7 +86,7 @@
                                                <img src="{{ url('assets/images/icons/quote.png') }}" alt="">
                                            </div>
                                            <div class="text">My son had a speech disorder and has been taking
-                                               treatment from E Bio Cares for four months. His speech has improved
+                                               treatment from E-Bio-Cares for four months. His speech has improved
                                                significantly, and he has started communicating better. I sincerely thank
                                                Dr. Jaswinder and the entire team.
                                            </div>
@@ -108,7 +108,7 @@
                                                <img src="{{ url('assets/images/icons/quote.png') }}" alt="">
                                            </div>
                                            <div class="text">My son Shivansh had autism and ADHD. After six months of
-                                               treatment at E Bio Cares, he has shown around 70% improvement. We are
+                                               treatment at E-Bio-Cares, he has shown around 70% improvement. We are
                                                happy with his progress and thankful to Dr. Jaswinder Singh for the
                                                support.
                                            </div>
@@ -130,7 +130,7 @@
                                                <img src="{{ url('assets/images/icons/quote.png') }}" alt="">
                                            </div>
                                            <div class="text">My 10-year-old son had autism, ADHD, speech disorder, and
-                                               cerebral palsy. After three months of treatment at E Bio Cares, we saw
+                                               cerebral palsy. After three months of treatment at E-Bio-Cares, we saw
                                                encouraging improvements, especially in mobility and communication. We
                                                sincerely appreciate the care and dedication provided.
                                            </div>
@@ -152,7 +152,7 @@
                                                <img src="{{ url('assets/images/icons/quote.png') }}" alt="">
                                            </div>
                                            <div class="text">My child had cerebral palsy and speech difficulties.
-                                               After starting treatment at E Bio Cares, we noticed positive changes
+                                               After starting treatment at E-Bio-Cares, we noticed positive changes
                                                within a few weeks. The doctor and staff were very supportive, caring,
                                                and professional throughout the treatment journey.
                                            </div>

@@ -26,9 +26,11 @@
                     <div class="inner-box">
                       <div class="icon">
                        
-                      </div> <div class="h4 service-title"><a href="{{ route('record-details') }}">Exclusive World Records</a></div>
+                      </div> <div class="h4 service-title">
+                      {{-- <a href="{{ route('record-details') }}"> --}}
+                      Exclusive World Records</a></div>
                       <div class="service-details">Dr. Jaswinder Singh, a global pioneer in electropathy and holistic medicine, for achieving Exclusive World Records in 2025</div>
-                      <a class="link-btn-style" href="{{ route('record-details') }}">Read More<i class="flaticon-common-arrow-right1"></i></a>
+                      {{-- <a class="link-btn-style" href="{{ route('record-details') }}">Read More<i class="flaticon-common-arrow-right1"></i></a> --}}
                     </div>
                   </div>
                   <div class="image">
@@ -43,9 +45,11 @@
                     <div class="inner-box">
                       <div class="icon">
                        
-                      </div> <div class="h4 service-title"><a href="{{ route('record-details') }}">Indo International Achievers</a></div>
+                      </div> <div class="h4 service-title">
+                      {{-- <a href="{{ route('record-details') }}"> --}}
+                      Indo International Achievers</a></div>
                       <div class="service-details">Dr. Jaswinder Singh, a globally renowned electropathy Expert, for his extraordinary contributions to alternative medicine. </div>
-                      <a class="link-btn-style" href="{{ route('record-details') }}">Read More<i class="flaticon-common-arrow-right1"></i></a>
+                      {{-- <a class="link-btn-style" href="{{ route('record-details') }}">Read More<i class="flaticon-common-arrow-right1"></i></a> --}}
                     </div>
                   </div>
                   <div class="image">

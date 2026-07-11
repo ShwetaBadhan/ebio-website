@@ -11,7 +11,7 @@
 @include('frontend.components.home.testimonials')
 @include('frontend.components.home.team')
 {{-- @include('frontend.components.home.book-form') --}}
-@include('frontend.components.home.blogs')
+{{-- @include('frontend.components.home.blogs') --}}
 {{-- @include('frontend.components.home.cta') --}}
 
 @endsection

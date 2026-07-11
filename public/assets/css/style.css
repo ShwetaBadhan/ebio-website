@@ -5301,7 +5301,7 @@ Section Title
   position: relative;
   display: inline-block;
   z-index: 1;
-  color: var(--sec-title-subtitle-color);
+  color: var(--theme-color1);
   font-size: var(--sec-title-subtitle-font-size);
   line-height: var(--sec-title-subtitle-line-height);
   font-family: var(--sec-title-subtitle-font-family);
