@@ -227,68 +227,66 @@
 
 <!-- End Page Wrapper -->
 
-   <!-- 2. Modal Overlay -->
-    <div class="modal-overlay" id="modalOverlay">
-        <div class="modal-content" role="dialog" aria-modal="true">
-            <button class="close-btn" id="closeModalBtn" aria-label="Close modal">&times;</button>
-            
-            <div class="modal-header">
-                <h2>Book Your Consultation</h2>
-               
+  <!-- 2. Modal Overlay -->
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content" role="dialog" aria-modal="true">
+        <button class="close-btn" id="closeModalBtn" aria-label="Close modal">&times;</button>
+        
+        <div class="modal-header">
+            <h2>Book Your Consultation</h2>
+        </div>
+
+        <!-- Added @csrf and id="appointmentForm" -->
+        <form id="appointmentForm">
+            @csrf
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required placeholder="John Doe">
             </div>
 
-            <!-- 3. Appointment Form -->
-            <form id="appointmentForm">
-                <div class="form-group" style="margin-bottom: 20px;">
-                    <label for="name">Full Name *</label>
-                    <input type="text" id="name" name="name" required placeholder="John Doe">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="email">Email Address </label>
-                        <input type="email" id="email" name="email" required placeholder="john@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number *</label>
-                        <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
-                    </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
                 </div>
+            </div>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="date">Preferred Date *</label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
-                   
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Preferred Date *</label>
+                    <input type="date" id="date" name="date" required>
                 </div>
+            </div>
 
-                <div class="form-group" style="margin-bottom: 20px;">
-                    <label for="service">Treatment*</label>
-                    <select id="service" name="service" required>
-                        <option value="" disabled selected>Select an option</option>
-                        <option value="Autism">Autism</option>
-                        <option value="ADHD">ADHD</option>
-                        <option value="Speech Disorder">Speech Disorder</option>
-                        <option value="Behaviour Disorder">Behaviour Disorder</option>
-                        <option value="Cerebral Palsy">Cerebral Palsy</option>
-                        <option value="Paralysis">Paralysis</option>
-                        <option value="Diabetes">Diabetes</option>
-                        <option value="Lung Diseases">Lung Diseases</option>
-                        <option value="Cancer Treatment">Cancer Care Center</option>
-                    </select>
-                </div>
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="service">Treatment *</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Autism">Autism</option>
+                    <option value="ADHD">ADHD</option>
+                    <option value="Speech Disorder">Speech Disorder</option>
+                    <option value="Behaviour Disorder">Behaviour Disorder</option>
+                    <option value="Cerebral Palsy">Cerebral Palsy</option>
+                    <option value="Paralysis">Paralysis</option>
+                    <option value="Diabetes">Diabetes</option>
+                    <option value="Lung Diseases">Lung Diseases</option>
+                    <option value="Cancer Treatment">Cancer Care Center</option>
+                </select>
+            </div>
 
-                <div class="form-group" style="margin-bottom: 10px;">
-                    <label for="message">Additional Notes</label>
-                    <textarea id="message" name="message" rows="3" placeholder="Any specific requests or details..."></textarea>
-                </div>
+            <div class="form-group" style="margin-bottom: 10px;">
+                <label for="message">Additional Notes</label>
+                <textarea id="message" name="message" rows="3" placeholder="Any specific requests or details..."></textarea>
+            </div>
 
-                <button type="submit" class="submit-btn">Confirm Appointment</button>
-            </form>
-        </div>
+            <button type="submit" class="submit-btn" id="submitBtn">Confirm Appointment</button>
+        </form>
     </div>
-    <!-- end banner-section -->
+</div>
 
 <script src="{{ url ('assets/js/jquery.js')}}"></script>
 <script src="{{ url ('assets/js/popper.min.js')}}"></script>
@@ -321,60 +319,128 @@
   };
 </script>
 <script async src="https://widget.myoperator.com/js/inject.js"></script>
+<!-- Include SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const openBtn = document.getElementById('openModalBtn');
-            const closeBtn = document.getElementById('closeModalBtn');
-            const overlay = document.getElementById('modalOverlay');
-            const form = document.getElementById('appointmentForm');
-            const dateInput = document.getElementById('date');
+document.addEventListener('DOMContentLoaded', () => {
+    const openBtn = document.getElementById('openModalBtn');
+    const closeBtn = document.getElementById('closeModalBtn');
+    const overlay = document.getElementById('modalOverlay');
+    const form = document.getElementById('appointmentForm');
+    const dateInput = document.getElementById('date');
+    const submitBtn = document.getElementById('submitBtn');
 
-            // Prevent users from selecting dates in the past
-            const today = new Date().toISOString().split('T')[0];
-            dateInput.setAttribute('min', today);
+    // 1. Prevent users from selecting dates in the past
+    if (dateInput) {
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.setAttribute('min', today);
+    }
 
-            // Open Modal
-            openBtn.addEventListener('click', () => {
-                overlay.classList.add('active');
-                document.body.style.overflow = 'hidden'; // Lock background scroll
-            });
+    // 2. Open Modal
+    if (openBtn) {
+        openBtn.addEventListener('click', () => {
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Lock background scroll
+        });
+    }
 
-            // Close Modal Function
-            const closeModal = () => {
-                overlay.classList.remove('active');
-                document.body.style.overflow = ''; // Unlock background scroll
-            };
+    // 3. Close Modal Function (Unified)
+    const closeModal = () => {
+        overlay.classList.remove('active');
+        document.body.style.overflow = ''; // Unlock background scroll
+    };
 
-            // Close via 'X' button
-            closeBtn.addEventListener('click', closeModal);
+    // Close via 'X' button
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+    }
 
-            // Close via clicking outside the modal box
-            overlay.addEventListener('click', (e) => {
-                if (e.target === overlay) {
-                    closeModal();
-                }
-            });
-
-            // Close via 'Escape' key
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && overlay.classList.contains('active')) {
-                    closeModal();
-                }
-            });
-
-            // Handle Form Submission
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                
-                // In a real application, you would send 'new FormData(form)' to your backend here.
-                
-                alert('Success! Your appointment request has been submitted.');
-                form.reset();
+    // Close via clicking outside the modal box
+    if (overlay) {
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) {
                 closeModal();
+            }
+        });
+    }
+
+    // Close via 'Escape' key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay && overlay.classList.contains('active')) {
+            closeModal();
+        }
+    });
+
+    // 4. Handle Form Submission (AJAX + SweetAlert)
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent normal form submission
+
+            // Show loading state on button
+            const originalBtnText = submitBtn ? submitBtn.innerText : 'Confirm Appointment';
+            if (submitBtn) {
+                submitBtn.innerText = 'Booking...';
+                submitBtn.disabled = true;
+            }
+
+            // Gather form data
+            const formData = new FormData(form);
+
+            // Send AJAX request
+            fetch("{{ route('consultation.store') }}", {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+                }
+            })
+            .then(response => {
+                if (response.status === 422) {
+                    // Handle Validation Errors
+                    return response.json().then(errors => {
+                        let errorMsg = Object.values(errors.errors).flat().join('\n');
+                        throw new Error(errorMsg);
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    // Show Success SweetAlert
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success!',
+                        text: data.message,
+                        confirmButtonColor: '#28a745'
+                    }).then(() => {
+                        // Reset form and close modal ONLY AFTER user clicks "OK" on Swal
+                        form.reset();
+                        closeModal();
+                    });
+                }
+            })
+            .catch(error => {
+                // Show Error SweetAlert
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Validation Error',
+                    text: error.message || 'Something went wrong. Please check your inputs.',
+                    confirmButtonColor: '#dc3545'
+                });
+            })
+            .finally(() => {
+                // Always restore button state
+                if (submitBtn) {
+                    submitBtn.innerText = originalBtnText;
+                    submitBtn.disabled = false;
+                }
             });
         });
-    </script>
+    }
+});
+</script>
 </body>
 
 </html>
